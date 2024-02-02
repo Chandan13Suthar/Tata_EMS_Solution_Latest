@@ -68,7 +68,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Pump Room/Individual_Panel_Layout8"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId

@@ -68,7 +68,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -255,7 +255,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_SWB_03_1F1"}
 - Name: Outgoing_MCB_SWB_03_2F1
   Id: g=16fed79d348f2f8f0895371c9bbfc677
   Supertype: Individual_Panel_Layout1
@@ -323,7 +323,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -510,7 +510,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_SWB_03_OG_2F1"}
 - Name: Outgoing_MCB_SWB_03_3F1
   Id: g=a6278f921bc2ee5cdbe41e6e881cab6e
   Supertype: Individual_Panel_Layout1
@@ -578,7 +578,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -765,5 +765,5 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_SWB_03_OG_3F1"}
 - File: Incomer_1F1_MCB_MCC_05/Incomer_1F1_MCB_MCC_05.yaml

@@ -68,7 +68,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -255,7 +255,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MCC_04_1F1"}
 - Name: Outgoing_MCB_MCC_04_2F1
   Id: g=42af20efbf97bd1f6c23a080eaab05d9
   Supertype: Individual_Panel_Layout1
@@ -323,7 +323,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -510,7 +510,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MCC_04_OG_2F1"}
 - Name: Outgoing_MCB_MCC_04_2F2
   Id: g=bfe996c221ca75778dd8afdab4bd2af9
   Supertype: Individual_Panel_Layout1
@@ -578,7 +578,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -765,7 +765,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MCC_04_OG_2F2"}
 - Name: Outgoing_MCB_MCC_04_3F1
   Id: g=ed18d1278fa7178d95acbee62c766ebd
   Supertype: Individual_Panel_Layout1
@@ -833,7 +833,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1020,7 +1020,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MCC_04_OG_3F1"}
 - Name: Outgoing_MCB_MCC_04_3F2
   Id: g=8dd05ac535d1f63209eea98a857a30da
   Supertype: Individual_Panel_Layout1
@@ -1088,7 +1088,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1275,7 +1275,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MCC_04_OG_3F2"}
 - Name: Outgoing_MCB_MCC_04_4F1
   Id: g=07073134ebeb5c214827bcdd2b8d9b58
   Supertype: Individual_Panel_Layout1
@@ -1343,7 +1343,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1530,7 +1530,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MCC_04_OG_4F1"}
 - Name: Outgoing_MCB_MCC_04_4F2
   Id: g=2f17190179644aead5a876b852fb3646
   Supertype: Individual_Panel_Layout1
@@ -1598,7 +1598,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1785,7 +1785,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MCC_04_OG_4F2"}
 - Name: Outgoing_MCB_MCC_04_5F1
   Id: g=9b94391c505a48e5e96bca14493f5571
   Supertype: Individual_Panel_Layout1
@@ -1853,7 +1853,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2040,7 +2040,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MCC_04_OG_5F1"}
 - Name: Outgoing_MCB_MCC_04_5F2
   Id: g=6a5abfc100ca7f39da713e71e944dcfe
   Supertype: Individual_Panel_Layout1
@@ -2108,7 +2108,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2295,7 +2295,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MCC_04_OG_5F2"}
 - Name: Outgoing_MCB_MCC_04_6F2
   Id: g=52085d00b16842413d5870fe68aaab9e
   Supertype: Individual_Panel_Layout1
@@ -2363,7 +2363,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2550,4 +2550,4 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MCC_04_OG_6F2"}

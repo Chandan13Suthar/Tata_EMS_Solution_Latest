@@ -68,7 +68,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -255,7 +255,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MVS02_1F1"}
 - Name: Outgoing_F3
   Id: g=f59943957186f2cdf7b0d7887de47d04
   Supertype: Individual_Panel_Layout1
@@ -323,7 +323,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -510,7 +510,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MVS_02_OG_F3"}
 - Name: Outgoing_F4
   Id: g=858fe01886170f04a66a078af84652bb
   Supertype: Individual_Panel_Layout1
@@ -578,7 +578,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -765,7 +765,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MVS_02_OG_F4"}
 - Name: Outgoing_F5
   Id: g=5c21efedf39611edbb84c343105535bc
   Supertype: Individual_Panel_Layout1
@@ -833,7 +833,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1020,7 +1020,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MVS_02_OG_F5"}
 - Name: Outgoing_F6
   Id: g=031745d72d5bc4f6ecba6c724e284297
   Supertype: Individual_Panel_Layout1
@@ -1088,7 +1088,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1275,7 +1275,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MVS_02_OG_F6"}
 - Name: Outgoing_F7
   Id: g=54bc5a118d29a163c05ab66a867de472
   Supertype: Individual_Panel_Layout1
@@ -1343,7 +1343,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1530,7 +1530,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MVS_02_OG_F7"}
 - Name: Outgoing_F8
   Id: g=d5855c7632f9a691bdcf638ed490bd68
   Supertype: Individual_Panel_Layout1
@@ -1598,7 +1598,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1785,7 +1785,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MVS_02_OG_F8"}
 - Name: Outgoing_F9
   Id: g=c1c9e83d59a6c244cfdbab1e48bc5d31
   Supertype: Individual_Panel_Layout1
@@ -1853,7 +1853,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Real Time Panels/Utility/Individual_Panel_Layout4"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2040,4 +2040,4 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MVS_02_OG_F9"}

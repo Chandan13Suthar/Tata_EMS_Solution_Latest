@@ -765,7 +765,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MVS_01_OG_F4"}
 - Name: Outgoing_Feeder_F5
   Id: g=fddf642c152bac8e8b93542affa456f5
   Supertype: Individual_Panel_Layout1
@@ -1020,7 +1020,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MVS_01_OG_F5"}
 - Name: Outgoing_Feeder_F6
   Id: g=f0e15cd63054d03b55c47b7e1458c864
   Supertype: Individual_Panel_Layout1
@@ -1275,7 +1275,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MVS_01_OG_F6"}
 - Name: Outgoing_Feeder_F7
   Id: g=f6716c642e9196a58a4c644435efb523
   Supertype: Individual_Panel_Layout1
@@ -1530,7 +1530,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MVS_01_OG_F7"}
 - Name: Outgoing_Feeder_F8
   Id: g=d3afbf2c88b80da90c9489817b76489b
   Supertype: Individual_Panel_Layout1
@@ -1785,7 +1785,7 @@ Children:
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"MCB_MVS_01_OG_F8"}
 - File: Utility_Sub_Panel_Section_1_MVS02/Utility_Sub_Panel_Section_1_MVS02.yaml
 - File: Utility_Sub_Panel_Section_2_MVS03/Utility_Sub_Panel_Section_2_MVS03.yaml
 - File: Utility_Sub_Panel_Section_3_MCB_SWB_01/Utility_Sub_Panel_Section_3_MCB_SWB_01.yaml
