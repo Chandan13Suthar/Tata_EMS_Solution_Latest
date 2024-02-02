@@ -1,0 +1,130 @@
+Name: Alarms
+Type: FolderType
+Children:
+- Name: Temperature
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Voltage
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Pressure
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: DigitalMail
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: AnalogMail
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: -1
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Class: DataType
+  Name: Alarm_Zones
+  Id: g=3c127255eb3604c354f2afa60ed3054d
+  Supertype: Enumeration
+  EnumDefinition: 
+   {
+    "Name": "Alarm_Zones",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3c127255eb3604c354f2afa60ed3054d",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Value0",
+      "Value": 0,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "SELECT * FROM Model WHERE Area='Zone1'"
+      },
+      "Description": {
+       "NamespaceIndex": 30,
+       "TextId": "Zone1"
+      }
+     },{
+      "Name": "Value1",
+      "Value": 1,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "SELECT * FROM Model WHERE Area='Zone2'"
+      },
+      "Description": {
+       "NamespaceIndex": 30,
+       "TextId": "Zone2"
+      }
+     },{
+      "Name": "Value2",
+      "Value": 2,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "SELECT * FROM Model WHERE Area='Zone3'"
+      },
+      "Description": {
+       "NamespaceIndex": 30,
+       "TextId": "Zone3"
+      }
+     },{
+      "Name": "Value3",
+      "Value": 3,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "SELECT * FROM Model WHERE Area='Zone1' OR Area='Zone2' OR Area='Zone3'"
+      },
+      "Description": {
+       "NamespaceIndex": 30,
+       "TextId": "All"
+      }
+     }]
+   }
+  Children:
+  - Name: ns=0;EnumValues
+    Type: BaseDataVariableType
+    DataType: EnumValueType
+    ModellingRule: None
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone1'"},"Description":{"NamespaceIndex":30,"TextId":"Zone1"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone2'"},"Description":{"NamespaceIndex":30,"TextId":"Zone2"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone3'"},"Description":{"NamespaceIndex":30,"TextId":"Zone3"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone1' OR Area='Zone2' OR Area='Zone3'"},"Description":{"NamespaceIndex":30,"TextId":"All"}}}]
+- File: Area/Area.yaml
+- File: Runtime/Runtime.yaml
+- Name: ZoneSelection
+  Id: g=32e424d2b6641b5d862f3fb743add650
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM Model WHERE Area='Zone1' OR Area='Zone2' OR Area='Zone3'"

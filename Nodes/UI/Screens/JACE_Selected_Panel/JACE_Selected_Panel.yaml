@@ -1,0 +1,10 @@
+Name: JACE_Selected_Panel
+Type: FolderType
+Children:
+- File: 33kv_Incomer_1/33kv_Incomer_1.yaml
+- File: SPP_Shop/SPP_Shop.yaml
+- File: Spare/Spare.yaml
+- File: Engine_Shop/Engine_Shop.yaml
+- File: EB_Incomer_1/EB_Incomer_1.yaml
+- File: DG_Incomer_2/DG_Incomer_2.yaml
+- File: Utility_Panels/Utility_Panels.yaml
