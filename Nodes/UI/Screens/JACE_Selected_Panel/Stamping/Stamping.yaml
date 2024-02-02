@@ -1,8 +1,8 @@
-Name: Utility Panels
+Name: Stamping
 Type: FolderType
 Children:
-- Name: Incomer_4
-  Id: g=e084b03cbb2d7e5e1bc0825bb6032e1a
+- Name: Incomer_5
+  Id: g=63646c076f1abd6cef7808d235a5733b
   Supertype: Individual_Panel_Layout1
   ReferenceType: HasComponent
   Children:
@@ -256,8 +256,8 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Incomer 1"}
-- Name: Incomer_3
-  Id: g=f9e1c436870e71c1f9d412b800c1ced9
+- Name: Incomer_6
+  Id: g=dc4fcb0d12d1ad7b7017ac0b4d4cac36
   Supertype: Individual_Panel_Layout1
   ReferenceType: HasComponent
   Children:
@@ -511,8 +511,8 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Incomer 2"}
-- Name: Outgoing_Feeder_F4
-  Id: g=0b6a27ef7db81d9d0548e8d29b6fb936
+- Name: Outgoing_Feeder_STP_MVS_F4
+  Id: g=9468ef581c309ca9a3dc46a044e1e742
   Supertype: Individual_Panel_Layout1
   ReferenceType: HasComponent
   Children:
@@ -766,8 +766,8 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Incomer 2"}
-- Name: Outgoing_Feeder_F5
-  Id: g=fddf642c152bac8e8b93542affa456f5
+- Name: Outgoing_Feeder_STP_MVS_F5
+  Id: g=3b99b839aa62128c1cfd9c95f791da87
   Supertype: Individual_Panel_Layout1
   ReferenceType: HasComponent
   Children:
@@ -1021,8 +1021,8 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Incomer 2"}
-- Name: Outgoing_Feeder_F6
-  Id: g=f0e15cd63054d03b55c47b7e1458c864
+- Name: Outgoing_Feeder_STP_MVS_F6
+  Id: g=ec0603aae7dec020c109044dff05d34a
   Supertype: Individual_Panel_Layout1
   ReferenceType: HasComponent
   Children:
@@ -1276,8 +1276,8 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Incomer 2"}
-- Name: Outgoing_Feeder_F7
-  Id: g=f6716c642e9196a58a4c644435efb523
+- Name: Outgoing_Feeder_STP_MVS_F7
+  Id: g=64cbab62f10c9643a36ba72f189f519b
   Supertype: Individual_Panel_Layout1
   ReferenceType: HasComponent
   Children:
@@ -1531,8 +1531,8 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Incomer 2"}
-- Name: Outgoing_Feeder_F8
-  Id: g=d3afbf2c88b80da90c9489817b76489b
+- Name: Outgoing_Feeder_STP_MVS_F8
+  Id: g=cc8b74363290618cf1b5648871662c01
   Supertype: Individual_Panel_Layout1
   ReferenceType: HasComponent
   Children:
@@ -1786,8 +1786,8 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Incomer 2"}
-- File: Utility_Sub_Panel_Section_1_MVS02/Utility_Sub_Panel_Section_1_MVS02.yaml
-- File: Utility_Sub_Panel_Section_2_MVS03/Utility_Sub_Panel_Section_2_MVS03.yaml
-- File: Utility_Sub_Panel_Section_3_MCB_SWB_01/Utility_Sub_Panel_Section_3_MCB_SWB_01.yaml
-- File: Utility_Sub_Panel_Section_4_MCB_SWB_02/Utility_Sub_Panel_Section_4_MCB_SWB_02.yaml
-- File: Utility_Sub_Panel_Section_5_MCB_SWB_03/Utility_Sub_Panel_Section_5_MCB_SWB_03.yaml
+- File: Stamping_Station_1/Stamping_Station_1.yaml
+- File: Stamping_Station_2/Stamping_Station_2.yaml
+- File: Stamping_Station_3/Stamping_Station_3.yaml
+- File: Stamping_Station_4/Stamping_Station_4.yaml
+- File: Stamping_Station_5/Stamping_Station_5.yaml

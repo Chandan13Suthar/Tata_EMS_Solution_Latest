@@ -8,3 +8,9 @@ Children:
 - File: EB_Incomer_1/EB_Incomer_1.yaml
 - File: DG_Incomer_2/DG_Incomer_2.yaml
 - File: Utility_Panels/Utility_Panels.yaml
+- File: Stamping/Stamping.yaml
+- File: PaintShop/PaintShop.yaml
+- File: Admin/Admin.yaml
+- File: Pump_Room/Pump_Room.yaml
+- File: TCF_Station/TCF_Station.yaml
+- File: BodyShop/BodyShop.yaml
