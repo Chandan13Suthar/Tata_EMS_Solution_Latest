@@ -251,7 +251,7 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"TCF Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -506,11 +506,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"TCF Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 1"}
+    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
 - Name: Outgoing_Feeder_TCF_MVS_01_OG_F4
   Id: g=cf8c658e36a26d0469ca18f864123374
   Supertype: Individual_Panel_Layout1
@@ -761,11 +761,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"TCF Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"TCF_MVS_01_OG_F4"}
 - Name: Outgoing_Feeder_TCF_MVS_01_OG_F5
   Id: g=ed0219538f88d1eb882efb26990c290c
   Supertype: Individual_Panel_Layout1
@@ -1016,12 +1016,12 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"TCF Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
-- Name: Outgoing_Feeder_TCF_MVS_01_OF_F6
+    Value: {"LocaleId":"en-US","Text":"TCF_MVS_01_OG_F5"}
+- Name: Outgoing_Feeder_TCF_MVS_01_OG_F6
   Id: g=56a38e12e3dcd050b6b5e67833b88d3c
   Supertype: Individual_Panel_Layout1
   ReferenceType: HasComponent
@@ -1271,11 +1271,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"TCF Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"TCF_MVS_01_OG_F6"}
 - File: SubStation_1_/SubStation_1_.yaml
 - File: SubStation_2/SubStation_2.yaml
 - File: SubStation_3/SubStation_3.yaml

@@ -251,7 +251,7 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Admin Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -506,7 +506,7 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Admin Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText

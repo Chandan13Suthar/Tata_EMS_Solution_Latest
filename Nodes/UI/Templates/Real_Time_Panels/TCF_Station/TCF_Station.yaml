@@ -10306,7 +10306,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/JACE_Selected_Panel/TCF Station/Outgoing_Feeder_TCF_MVS_01_OF_F6"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/JACE_Selected_Panel/TCF Station/Outgoing_Feeder_TCF_MVS_01_OG_F6"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId

@@ -251,7 +251,7 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Bodyshop Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -506,11 +506,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Bodyshop Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 1"}
+    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
 - Name: BDY_MVS_02_OG_F3
   Id: g=1f19b05f8772f294e808975af1e97c79
   Supertype: Individual_Panel_Layout1
@@ -761,11 +761,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Bodyshop Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 1"}
+    Value: {"LocaleId":"en-US","Text":"BDY_MVS_02_OG_F3"}
 - Name: BDY_MVS_02_OG_F4
   Id: g=7a9bd406ef556414046f32fc2ab4d6c4
   Supertype: Individual_Panel_Layout1
@@ -1016,11 +1016,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Bodyshop Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 1"}
+    Value: {"LocaleId":"en-US","Text":"BDY_MVS_02_OG_F4"}
 - Name: BDY_MVS_02_OG_F6
   Id: g=b45f791eb7b6c4cbe25f958daf42c740
   Supertype: Individual_Panel_Layout1
@@ -1271,11 +1271,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Bodyshop Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 1"}
+    Value: {"LocaleId":"en-US","Text":"BDY_MVS_02_OG_F6"}
 - Name: BDY_MVS_02_OG_F7
   Id: g=d3a93370eee88d9f45f8c705694c7e4c
   Supertype: Individual_Panel_Layout1
@@ -1526,11 +1526,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Bodyshop Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 1"}
+    Value: {"LocaleId":"en-US","Text":"BDY_MVS_02_OG_F7"}
 - File: SubStation_1/SubStation_1.yaml
 - File: SubStation_2/SubStation_2.yaml
 - File: SubStation_3/SubStation_3.yaml

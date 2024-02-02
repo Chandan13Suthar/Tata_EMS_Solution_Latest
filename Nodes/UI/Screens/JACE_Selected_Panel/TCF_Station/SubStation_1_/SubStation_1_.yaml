@@ -251,11 +251,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"TCF Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"WH_TCF_SWB_01_IN1F2"}
 - Name: WH_TCF_SWB_01_OG_2F3
   Id: g=dde79763776c3baf78681c578e90e9c3
   Supertype: Individual_Panel_Layout1
@@ -506,11 +506,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"TCF Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"WH_TCF_SWB_01_OG_2F3"}
 - Name: WH_TCF_SWB_01_OG_3F3
   Id: g=312a7abfadc496e56669f735630f57b1
   Supertype: Individual_Panel_Layout1
@@ -761,11 +761,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"TCF Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"WH_TCF_SWB_01_OG_3F3"}
 - Name: WH_TCF_SWB_01_OG_4F3
   Id: g=98de6c03e5273daaef5033de9e173fc2
   Supertype: Individual_Panel_Layout1
@@ -1016,11 +1016,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"TCF Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"WH_TCF_SWB_01_OG_4F3"}
 - Name: WH_TCF_SWB_01_OG_5F3
   Id: g=b3134f45b752631e5fde2cbfea2fc1c5
   Supertype: Individual_Panel_Layout1
@@ -1271,8 +1271,8 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"TCF Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"WH_TCF_SWB_01_OG_5F3"}

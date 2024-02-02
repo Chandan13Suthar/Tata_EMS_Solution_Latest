@@ -251,11 +251,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_SWB_02"}
 - Name: Outgoing_STP_SWB_02_OG_2F1
   Id: g=0b5e5c9e6ea6da5b07228016a38d15e2
   Supertype: Individual_Panel_Layout1
@@ -504,11 +504,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_SWB_02_OG_2F1"}
 - Name: Outgoing_STP_SWB_02_OG_3F1
   Id: g=4453264cc8903c907d50151d4f8538a2
   Supertype: Individual_Panel_Layout1
@@ -757,11 +757,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_SWB_02_OG_3F1"}
 - Name: Outgoing_STP_SWB_02_OG_3F2
   Id: g=6ad06ad5b6a620b1f8fe19f7eebd09e0
   Supertype: Individual_Panel_Layout1
@@ -1010,11 +1010,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_SWB_02_OG_3F2"}
 - Name: Outgoing_STP_SWB_02_OG_4F1
   Id: g=284eb845a1a895f3dcc9ddbdcf942e71
   Supertype: Individual_Panel_Layout1
@@ -1263,11 +1263,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_SWB_02_OG_4F1"}
 - Name: Outgoing_STP_SWB_02_OG_4F2
   Id: g=975ad2b8a616c8b68375cc976601c482
   Supertype: Individual_Panel_Layout1
@@ -1516,11 +1516,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_SWB_02_OG_4F2"}
 - Name: Outgoing_STP_SWB_02_OG_5F1
   Id: g=1c3e4527967b0cc530757ef9932cd3d2
   Supertype: Individual_Panel_Layout1
@@ -1769,8 +1769,8 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_SWB_02_OG_5F1"}

@@ -251,7 +251,7 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -506,7 +506,7 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -761,11 +761,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_F4"}
 - Name: Outgoing_Feeder_STP_MVS_F5
   Id: g=3b99b839aa62128c1cfd9c95f791da87
   Supertype: Individual_Panel_Layout1
@@ -1016,11 +1016,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_F5"}
 - Name: Outgoing_Feeder_STP_MVS_F6
   Id: g=ec0603aae7dec020c109044dff05d34a
   Supertype: Individual_Panel_Layout1
@@ -1271,11 +1271,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_F6"}
 - Name: Outgoing_Feeder_STP_MVS_F7
   Id: g=64cbab62f10c9643a36ba72f189f519b
   Supertype: Individual_Panel_Layout1
@@ -1526,11 +1526,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_F7"}
 - Name: Outgoing_Feeder_STP_MVS_F8
   Id: g=cc8b74363290618cf1b5648871662c01
   Supertype: Individual_Panel_Layout1
@@ -1781,11 +1781,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Stamping Station"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_F8"}
 - File: Stamping_Station_1/Stamping_Station_1.yaml
 - File: Stamping_Station_2/Stamping_Station_2.yaml
 - File: Stamping_Station_3/Stamping_Station_3.yaml

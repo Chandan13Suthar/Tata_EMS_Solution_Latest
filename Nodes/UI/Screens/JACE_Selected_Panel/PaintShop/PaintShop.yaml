@@ -251,7 +251,7 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Paint Shop"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -506,7 +506,7 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Paint Shop"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -761,11 +761,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Paint Shop"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_OG_01_F4"}
 - Name: Outgoing_Feeder_STP_MVS_OG_01_F5
   Id: g=087fa086daa86924479e6100dd3af25a
   Supertype: Individual_Panel_Layout1
@@ -1016,11 +1016,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Paint Shop"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_OG_01_F5"}
 - Name: Outgoing_Feeder_STP_MVS_OG_01_F6
   Id: g=b74c83c08f7e3a85323068ecd3fc0fdb
   Supertype: Individual_Panel_Layout1
@@ -1271,11 +1271,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Paint Shop"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_OG_01_F6"}
 - Name: Outgoing_Feeder_STP_MVS_OG_01_F7
   Id: g=b44d26fe12ba56c9fea731e95bf9b772
   Supertype: Individual_Panel_Layout1
@@ -1526,11 +1526,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Paint Shop"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_OG_01_F7"}
 - Name: Outgoing_Feeder_STP_MVS_OG_01_F8
   Id: g=8720d2722bfb91a7c5fcf1fb60a3de65
   Supertype: Individual_Panel_Layout1
@@ -1781,11 +1781,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Paint Shop"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_OG_01_F8"}
 - Name: Outgoing_Feeder_STP_MVS_OG_01_F9
   Id: g=dd1c4c2cf1dbdfda739b4cc606e6956a
   Supertype: Individual_Panel_Layout1
@@ -2036,11 +2036,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Paint Shop"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_OG_01_F9"}
 - Name: Outgoing_Feeder_STP_MVS_OG_01_F10
   Id: g=faa990e69512e86aebc41c5e439e9e07
   Supertype: Individual_Panel_Layout1
@@ -2291,11 +2291,11 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Paint Shop"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_OG_01_F10"}
 - Name: Outgoing_Feeder_STP_MVS_OG_01_F11
   Id: g=78e3b6ad4117654534b728e45db3f7d2
   Supertype: Individual_Panel_Layout1
@@ -2546,8 +2546,8 @@ Children:
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Utility Station"}
+    Value: {"LocaleId":"en-US","Text":"Paint Shop"}
   - Name: FeatureName
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Incomer 2"}
+    Value: {"LocaleId":"en-US","Text":"STP_MVS_OG_01_F11"}
