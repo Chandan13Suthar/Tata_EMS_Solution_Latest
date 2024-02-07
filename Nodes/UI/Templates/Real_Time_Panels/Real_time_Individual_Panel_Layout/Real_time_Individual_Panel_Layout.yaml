@@ -131,6 +131,11 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "../../../../../../FeatureName"
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
   - Name: WorkspaceArea
     Type: Rectangle
     Children:
@@ -173,7 +178,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 50.0
+          Value: 438.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
@@ -293,7 +298,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 300.0
+            Value: -43.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
@@ -322,7 +327,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 300.0
+            Value: 370.0
           - Class: Reference
             Target: ns=5;i=1181
             Direction: Forward
@@ -338,7 +343,27 @@ Children:
             Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 50.0
+            Value: 35.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -6.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 45.0
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
