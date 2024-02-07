@@ -1013,6 +1013,26 @@ Children:
           - Class: Reference
             Target: ns=5;i=1183
             Direction: Forward
+          - Name: TabWidth
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 370.0
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 748.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 424.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 274.0
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText

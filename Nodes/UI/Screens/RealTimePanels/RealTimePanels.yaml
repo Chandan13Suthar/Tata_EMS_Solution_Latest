@@ -2296,6 +2296,10 @@ Children:
                           Type: DynamicLink
                           DataType: NodePath
                           Value: "../../../../../../Line Chart/Switch1/Checked"
+                  - Name: Visible
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
               - Name: Rectangle12
                 Type: Rectangle
                 Children:

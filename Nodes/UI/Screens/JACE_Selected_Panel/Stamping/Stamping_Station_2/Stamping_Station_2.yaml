@@ -499,8 +499,10 @@ Children:
             Value: "underlined"
           - Class: Reference
             Target: ns=5;i=1183
+            Direction: Forward
           - Class: Reference
             Target: ns=5;i=1181
+            Direction: Forward
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -752,8 +754,10 @@ Children:
             Value: "underlined"
           - Class: Reference
             Target: ns=5;i=1183
+            Direction: Forward
           - Class: Reference
             Target: ns=5;i=1181
+            Direction: Forward
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -1005,8 +1009,10 @@ Children:
             Value: "underlined"
           - Class: Reference
             Target: ns=5;i=1183
+            Direction: Forward
           - Class: Reference
             Target: ns=5;i=1181
+            Direction: Forward
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -1258,8 +1264,10 @@ Children:
             Value: "underlined"
           - Class: Reference
             Target: ns=5;i=1183
+            Direction: Forward
           - Class: Reference
             Target: ns=5;i=1181
+            Direction: Forward
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -1511,8 +1519,10 @@ Children:
             Value: "underlined"
           - Class: Reference
             Target: ns=5;i=1183
+            Direction: Forward
           - Class: Reference
             Target: ns=5;i=1181
+            Direction: Forward
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -1764,8 +1774,10 @@ Children:
             Value: "underlined"
           - Class: Reference
             Target: ns=5;i=1183
+            Direction: Forward
           - Class: Reference
             Target: ns=5;i=1181
+            Direction: Forward
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
