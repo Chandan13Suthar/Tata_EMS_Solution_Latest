@@ -372,6 +372,11 @@ Children:
               DataType: Boolean
               ModellingRule: Optional
               Value: false
+            - Name: ScrollBarStyle
+              Type: BaseDataVariableType
+              DataType: String
+              ModellingRule: Optional
+              Value: "Default"
           - Name: Jace03_meter
             Type: ComboBox
             Children:
