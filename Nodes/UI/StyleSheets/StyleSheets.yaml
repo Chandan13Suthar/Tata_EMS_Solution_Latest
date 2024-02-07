@@ -584,6 +584,8 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#235d9f00"
+    - Name: InputBoxStyle1
+      Type: InputBoxStyle
   - Name: SwitchStyles
     Type: BaseObjectType
     Children:
@@ -772,6 +774,8 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#235d9f"
+    - Name: DataListStyle1
+      Type: DataListStyle
   - Name: ToolTipStyles
     Type: BaseObjectType
     Children:
@@ -814,6 +818,8 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#f0f0f000"
+    - Name: ScrollBarStyle1
+      Type: ScrollBarStyle
   - Name: AccordionStyles
     Type: BaseObjectType
     Children:

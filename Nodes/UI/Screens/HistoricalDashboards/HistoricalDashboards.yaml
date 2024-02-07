@@ -2379,7 +2379,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: String
                     ModellingRule: Optional
-                    Value: "Combo_box_style"
+                    Value: "Default"
                   - Name: Enabled
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -2630,7 +2630,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: String
                     ModellingRule: Optional
-                    Value: "Combo_box_style"
+                    Value: "Default"
                   - Name: Enabled
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -2881,7 +2881,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: String
                     ModellingRule: Optional
-                    Value: "Combo_box_style"
+                    Value: "Default"
                   - Name: Enabled
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -3132,7 +3132,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: String
                     ModellingRule: Optional
-                    Value: "Combo_box_style"
+                    Value: "Default"
                   - Name: Enabled
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -3383,7 +3383,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: String
                     ModellingRule: Optional
-                    Value: "Combo_box_style"
+                    Value: "Default"
                   - Name: Enabled
                     Type: BaseDataVariableType
                     DataType: Boolean
