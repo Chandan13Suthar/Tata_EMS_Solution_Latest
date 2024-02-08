@@ -584,6 +584,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#235d9f00"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
     - Name: InputBoxStyle1
       Type: InputBoxStyle
   - Name: SwitchStyles
@@ -637,6 +641,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#000000"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
     - Name: GaugeStyle1
       Type: GaugeStyle
       Children:
@@ -730,6 +738,11 @@ Children:
     Children:
     - Name: Default
       Type: ChartStyle
+      Children:
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#01042c"
     - Name: ChartStyle1
       Type: ChartStyle
       Children:
@@ -796,6 +809,13 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
+    - Name: TooltipStyle2
+      Type: ToolTipStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
   - Name: ScrollBarStyles
     Type: BaseObjectType
     Children:
@@ -820,6 +840,31 @@ Children:
         Value: "#f0f0f000"
     - Name: ScrollBarStyle1
       Type: ScrollBarStyle
+      Children:
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#010320"
+      - Name: Size
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 21.0
+      - Name: HandleRadius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: HandleBorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: AutoHide
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
   - Name: AccordionStyles
     Type: BaseObjectType
     Children:
