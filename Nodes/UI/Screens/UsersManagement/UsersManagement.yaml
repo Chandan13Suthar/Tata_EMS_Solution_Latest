@@ -3655,7 +3655,7 @@ Children:
                   - Name: ns=3;ObjectPointer
                     Type: NodePointer
                     DataType: NodeId
-                    Value: "/Objects/Tata_EMS_Solution_Latest/Reports/Reports"
+                    Value: "/Objects/Tata_EMS_Solution_Latest/Reports/Daily consumption Report"
                     Children:
                     - Name: Kind
                       Type: PropertyType
@@ -3673,25 +3673,6 @@ Children:
                       DataType: ResourceUri
                       Description: {"NamespaceIndex":15,"TextId":"GeneratePdfOutputPathDescription"}
                       Value: ""
-                      Children:
-                      - Name: StringFormatter1
-                        Type: StringFormatter
-                        Children:
-                        - Name: Format
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          ReferenceType: HasParameter
-                          ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"file:///{0}"}
-                        - Name: ns=3;Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Dailyconsumptionreportpath"
                     - Name: LocaleId
                       Type: BaseDataVariableType
                       DataType: LocaleId
@@ -4282,7 +4263,7 @@ Children:
                   - Name: ns=3;ObjectPointer
                     Type: NodePointer
                     DataType: NodeId
-                    Value: "/Objects/Tata_EMS_Solution_Latest/Reports/Reports"
+                    Value: "/Objects/Tata_EMS_Solution_Latest/Reports/Daily consumption Report"
                     Children:
                     - Name: Kind
                       Type: PropertyType
@@ -4301,24 +4282,10 @@ Children:
                       Description: {"NamespaceIndex":15,"TextId":"GeneratePdfOutputPathDescription"}
                       Value: ""
                       Children:
-                      - Name: StringFormatter1
-                        Type: StringFormatter
-                        Children:
-                        - Name: Format
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          ReferenceType: HasParameter
-                          ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"file:///{0}"}
-                        - Name: ns=3;Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Dailyconsumptionreportpath"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Dailyconsumptionreportpath"
                     - Name: LocaleId
                       Type: BaseDataVariableType
                       DataType: LocaleId
@@ -6727,7 +6694,7 @@ Children:
                   - Name: ns=3;ObjectPointer
                     Type: NodePointer
                     DataType: NodeId
-                    Value: "/Objects/Tata_EMS_Solution_Latest/Reports/Reports"
+                    Value: "/Objects/Tata_EMS_Solution_Latest/Reports/Daily consumption Report"
                     Children:
                     - Name: Kind
                       Type: PropertyType

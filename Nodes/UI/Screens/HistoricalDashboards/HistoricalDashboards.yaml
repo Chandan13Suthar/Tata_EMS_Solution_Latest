@@ -5892,6 +5892,26 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 90.0
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: RightMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 0.0
+                  - Name: FillColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#3b3b3bbb"
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#000000"
                   - Name: Trend1
                     Type: Trend
                     Children:
@@ -5984,7 +6004,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 29.0
+                      Value: 32.0
                     - Name: LeftMargin
                       Type: BaseVariableType
                       DataType: Size
@@ -6006,34 +6026,11 @@ Children:
                       ModellingRule: Optional
                       Value: "ChartStyle1"
                     - Class: Reference
-                      Target: ns=5;i=1209
-                      Direction: Forward
+                      Target: ns=5;i=1129
                     - Class: Reference
                       Target: ns=5;i=1201
-                      Direction: Forward
                     - Class: Reference
-                      Target: ns=5;i=1129
-                      Direction: Forward
-                  - Name: HorizontalAlignment
-                    Type: BaseVariableType
-                    DataType: HorizontalAlignment
-                    ModellingRule: Optional
-                    Value: 3
-                  - Name: RightMargin
-                    Type: BaseVariableType
-                    DataType: Size
-                    ModellingRule: Optional
-                    Value: 0.0
-                  - Name: FillColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    ModellingRule: Optional
-                    Value: "#3b3b3bbb"
-                  - Name: BorderColor
-                    Type: BaseDataVariableType
-                    DataType: Color
-                    ModellingRule: Optional
-                    Value: "#000000"
+                      Target: ns=5;i=1209
                 - Name: HorizontalAlignment
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
@@ -27901,7 +27898,7 @@ Children:
           - Name: Path
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "ns=30;%PROJECTDIR%/imgs/Screenshot (98).png"
+            Value: "ns=30;%PROJECTDIR%/imgs/Untitled7.png"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -27916,7 +27913,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 0.0
+            Value: 20.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -27949,12 +27946,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -20.0
+              Value: -16.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 37.0
+              Value: 48.0
             - Name: TextHorizontalAlignment
               Type: BaseVariableType
               DataType: TextHorizontalAlignment
@@ -28204,7 +28201,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 0.0
+            Value: 20.0
           - Name: PolyLine2
             Type: PolyLine
             Children:
@@ -28365,7 +28362,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 933.0
+              Value: 1036.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -28413,7 +28410,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 1032.0
+              Value: 1136.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -28471,7 +28468,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 1102.0
+              Value: 1199.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size

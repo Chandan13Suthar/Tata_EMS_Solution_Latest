@@ -1303,6 +1303,7 @@ Children:
     Target: ns=15;i=16
     Direction: Forward
 - Name: Daily consumption Report
+  Id: g=2dee62f05b987a0aac71289b9bdb0481
   Type: Report
   Children:
   - Name: PageSize

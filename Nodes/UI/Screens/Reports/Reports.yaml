@@ -9819,54 +9819,16 @@ Children:
               DataType: ResourceUri
               Value: ""
               Children:
-              - Name: KeyValueConverter1
-                Type: ValueMapConverter
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Dailyconsumptionreportpath"
                 Children:
-                - Name: Source
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../Rectangle1/ToggleButton1/Active"
-                - Name: Pairs
-                  Type: BaseObjectType
-                  Children:
-                  - Name: Pair
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      Value: true
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: BaseDataType
-                      Value: {"Type":6,"Body":0}
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "/Objects/Tata_EMS_Solution_Old_Version_Running/Model/Reports/Dailyconsumptionreportpath"
-                        Children:
-                        - Name: Mode
-                          Type: BaseVariableType
-                          DataType: DynamicLinkMode
-                          ModellingRule: Optional
-                          Value: 2
-                  - Name: Pair1
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      Value: false
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: BaseDataType
-                      Value: {"Type":6,"Body":0}
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
             - Name: CurrentPage
               Type: BaseDataVariableType
               DataType: Int32
@@ -9882,49 +9844,16 @@ Children:
               DataType: AbsoluteResourceUri
               Value: ""
               Children:
-              - Name: ConditionalConverter1
-                Type: ConditionalConverter
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Dailyconsumptionreportpath"
                 Children:
-                - Name: Condition
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasSource
-                  Value: false
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: ""
-                - Name: TrueValue
-                  Type: BaseDataVariableType
-                  DataType: AbsoluteResourceUri
-                  ReferenceType: HasParameter
-                  Value: ""
-                  Children:
-                  - Name: StringFormatter1
-                    Type: StringFormatter
-                    Children:
-                    - Name: Format
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      ReferenceType: HasParameter
-                      ModellingRule: Optional
-                      Value: {"LocaleId":"en-US","Text":"{0}"}
-                    - Name: ns=3;Source0
-                      Type: BaseDataVariableType
-                      DataType: BaseDataType
-                      ReferenceType: HasSource
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: ""
-                - Name: FalseValue
-                  Type: BaseDataVariableType
-                  DataType: AbsoluteResourceUri
-                  ReferenceType: HasParameter
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
                   ModellingRule: Optional
-                  Value: ""
+                  Value: 2
             - Name: IsNativeUI
               Type: BaseDataVariableType
               DataType: Boolean
@@ -9938,7 +9867,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 39.0
+              Value: 10.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -9953,7 +9882,7 @@ Children:
               Type: BaseVariableType
               DataType: HorizontalAlignment
               ModellingRule: Optional
-              Value: 0
+              Value: 3
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -9964,6 +9893,11 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 400.0
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
