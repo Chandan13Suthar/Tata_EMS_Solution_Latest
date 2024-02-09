@@ -4906,7 +4906,7 @@ Children:
           - Name: Tile_Open_Panel
             Type: BaseDataVariableType
             DataType: NodeId
-            Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/UsersManagement/Localization2"
+            Value: {"IdType":2,"Id":"520194029d96e6219ebc968fc2291e02","Namespace":30}
           - Name: ButtonInfo
             Type: Button
             Children:
