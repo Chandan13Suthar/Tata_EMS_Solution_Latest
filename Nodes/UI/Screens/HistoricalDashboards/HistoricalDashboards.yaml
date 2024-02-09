@@ -6027,10 +6027,13 @@ Children:
                       Value: "ChartStyle1"
                     - Class: Reference
                       Target: ns=5;i=1129
+                      Direction: Forward
                     - Class: Reference
                       Target: ns=5;i=1201
+                      Direction: Forward
                     - Class: Reference
                       Target: ns=5;i=1209
+                      Direction: Forward
                 - Name: HorizontalAlignment
                   Type: BaseVariableType
                   DataType: HorizontalAlignment

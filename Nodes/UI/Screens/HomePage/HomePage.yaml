@@ -1700,7 +1700,6 @@ Children:
         Value: "/Objects/Tata_EMS_Solution_Latest/UI/NativePresentationEngine/StyleSheet/WindowColor"
     - Name: Card1
       Type: BaseCard
-      Description: {"NamespaceIndex":30,"TextId":"Move target: Card1"}
       Children:
       - Name: Title
         Type: Rectangle
@@ -1936,17 +1935,14 @@ Children:
                 - Name: VariableToModify
                   Type: BaseDataVariableType
                   DataType: VariablePointer
-                  Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
                   Value: "/Objects/Tata_EMS_Solution_Latest/Model/MarginsForRetentivity/Card1LeftMargin"
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
-                  Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
                   Value: 16.0
                 - Name: ArrayIndex
                   Type: BaseDataVariableType
                   DataType: UInt32
-                  Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                   ValueRank: ScalarOrOneDimension
                   Value: 0
             - Name: MethodContainer2
@@ -1971,17 +1967,14 @@ Children:
                 - Name: VariableToModify
                   Type: BaseDataVariableType
                   DataType: VariablePointer
-                  Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
                   Value: "/Objects/Tata_EMS_Solution_Latest/Model/MarginsForRetentivity/Card1ToptMargin"
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
-                  Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
                   Value: 16.0
                 - Name: ArrayIndex
                   Type: BaseDataVariableType
                   DataType: UInt32
-                  Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                   ValueRank: ScalarOrOneDimension
                   Value: 0
           - Name: EventArguments
@@ -2094,12 +2087,10 @@ Children:
                 - Name: Dialog
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Description: {"NamespaceIndex":5,"TextId":"OpenDialogDialogDescription"}
                   Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Common/RetentivityDialog"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Description: {"NamespaceIndex":5,"TextId":"OpenDialogAliasNodeDescription"}
                   ValueRank: ScalarOrOneDimension
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
@@ -2116,7 +2107,6 @@ Children:
                 - Name: ParentItem
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Description: {"NamespaceIndex":5,"TextId":"OpenDialogParentItemDescription"}
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
                   Children:
                   - Name: DynamicLink
@@ -2135,7 +2125,6 @@ Children:
                 - Name: DialogNodeId
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Description: {"NamespaceIndex":5,"TextId":"OpenDialogDialogNodeIdDescription"}
                   Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: EventArguments
             Type: UserValueChanged
