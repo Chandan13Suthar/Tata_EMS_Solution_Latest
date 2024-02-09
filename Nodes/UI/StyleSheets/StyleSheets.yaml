@@ -852,7 +852,7 @@ Children:
       - Name: HandleRadius
         Type: BaseDataVariableType
         DataType: Size
-        Value: 5.0
+        Value: 2.0
       - Name: HandleBorderWidth
         Type: BaseDataVariableType
         DataType: Size
@@ -860,7 +860,7 @@ Children:
       - Name: Radius
         Type: BaseDataVariableType
         DataType: Size
-        Value: 5.0
+        Value: 2.0
       - Name: AutoHide
         Type: BaseDataVariableType
         DataType: Boolean
