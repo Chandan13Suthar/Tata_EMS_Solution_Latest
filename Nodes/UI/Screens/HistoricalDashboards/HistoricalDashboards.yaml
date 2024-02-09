@@ -29138,7 +29138,7 @@ Children:
                     - Name: Path
                       Type: BaseDataVariableType
                       DataType: ResourceUri
-                      Value: "ns=30;%PROJECTDIR%/imgs/Untitled1.png"
+                      Value: "ns=30;%PROJECTDIR%/imgs/header_underline.png"
                     - Name: Width
                       Type: BaseVariableType
                       DataType: Size
@@ -29148,7 +29148,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 8.0
+                      Value: 10.0
                     - Name: HorizontalAlignment
                       Type: BaseVariableType
                       DataType: HorizontalAlignment
@@ -29163,7 +29163,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 42.0
+                      Value: 30.0
                     - Name: LeftMargin
                       Type: BaseVariableType
                       DataType: Size
@@ -29174,6 +29174,11 @@ Children:
                       DataType: Size
                       ModellingRule: Optional
                       Value: 550.0
+                    - Name: DynamicColor
+                      Type: BaseDataVariableType
+                      DataType: Color
+                      ModellingRule: Optional
+                      Value: "#010320"
                   - Name: RightMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -30506,7 +30511,7 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 482.0
+                  Value: 481.0
                 - Name: FontSize
                   Type: BaseDataVariableType
                   DataType: Size
@@ -30531,7 +30536,7 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 40.0
+                  Value: 37.0
                 - Name: TextColor
                   Type: BaseDataVariableType
                   DataType: Color
@@ -30551,7 +30556,7 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 6.0
+                  Value: -1.0
               - Name: Selection1_Jace
                 Type: Label
                 Children:

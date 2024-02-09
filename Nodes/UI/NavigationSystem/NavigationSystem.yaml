@@ -10592,7 +10592,7 @@ Children:
           - Name: Tile_Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"Daily Consumption Report"}
+            Value: {"LocaleId":"en-US","Text":"Daily Consumption Report"}
           - Name: Tile_Subtitle
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -11073,7 +11073,7 @@ Children:
           - Name: Tile_Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"Monthly Consumption Report"}
+            Value: {"LocaleId":"en-US","Text":"Monthly Consumption Report"}
           - Name: Tile_Subtitle
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -11085,7 +11085,7 @@ Children:
           - Name: Tile_Open_Panel
             Type: BaseDataVariableType
             DataType: NodeId
-            Value: {"IdType":2,"Id":"0b05e7662cc2b340ebf8ef1de19c9b09","Namespace":30}
+            Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/Reports/Monthly_Report"
           - Name: ButtonInfo
             Type: Button
             Children:
@@ -11217,6 +11217,26 @@ Children:
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../Enabled"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 4.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -6.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
       - Name: Row2
         Type: RowLayout
       - Name: Row3

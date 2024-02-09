@@ -122,15 +122,15 @@ Project:
    Module: FTOptix.WebUI.Net
    Version: 1.1
  Statistics:
-  TotalNodeCount: 86234
-  Objects: 18236
-  ObjectTypes: 269
-  Variables: 67663
+  TotalNodeCount: 89213
+  Objects: 18882
+  ObjectTypes: 271
+  Variables: 69983
   VariableTypes: 0
-  DataTypes: 44
+  DataTypes: 55
   Methods: 22
-  References: 604
+  References: 623
   ReferenceTypes: 0
-  Files: 111
+  Files: 112
  Nodes:
  - File: Nodes/Tata_EMS_Solution_Latest.yaml

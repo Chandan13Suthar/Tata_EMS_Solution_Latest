@@ -309,6 +309,46 @@ Children:
           Type: StoreColumn
           DataType: Int32
           Value: 0
+    - Name: MonthlyConsumptionReport
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Date
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Jace
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Meter
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Power
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Energy
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Pf
+          Type: StoreColumn
+          DataType: BaseDataType
   - Name: Type
     Type: PropertyType
     DataType: DBMSType
