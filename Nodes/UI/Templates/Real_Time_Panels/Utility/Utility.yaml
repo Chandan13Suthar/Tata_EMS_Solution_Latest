@@ -58332,6 +58332,59 @@ Children:
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
+          - Name: Label1
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"UTILITY"}
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 679.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 12.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 800
         - Name: PolyLine8
           Type: PolyLine
           Children:
