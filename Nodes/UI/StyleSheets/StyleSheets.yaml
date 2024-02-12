@@ -605,6 +605,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#000000"
+      - Name: FocusBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#020a63"
     - Name: InputBoxStyle1
       Type: InputBoxStyle
   - Name: SwitchStyles
@@ -682,19 +686,19 @@ Children:
       - Name: InactiveTextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#9e9e9e"
+        Value: "#000000"
       - Name: ActivePrimaryColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#2e6fc9"
+        Value: "#ffffff"
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e400"
+        Value: "#a50ae9"
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
-        Value: 16.0
+        Value: 20.0
       - Name: IconUsesTextColor
         Type: BaseDataVariableType
         DataType: Boolean
@@ -702,11 +706,15 @@ Children:
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font
-        Value: "Algerian"
+        Value: "Cooper Black"
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
         Value: 600
+      - Name: TabSpacing
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
     - Name: NavigationPanelStyle1
       Type: NavigationPanelStyle
       Children:
@@ -804,6 +812,46 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#235d9f"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: HeaderBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#540377"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Lucida Fax"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: HeaderTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: HeaderFontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: "Lucida Fax"
+      - Name: HeaderFontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+      - Name: HeaderBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#010425"
     - Name: DataListStyle1
       Type: DataListStyle
   - Name: ToolTipStyles
@@ -846,15 +894,27 @@ Children:
       - Name: Size
         Type: BaseDataVariableType
         DataType: Size
-        Value: 17.0
+        Value: 10.0
       - Name: HandleColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#235d9f"
+        Value: "#000000"
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
         Value: "#f0f0f000"
+      - Name: HandleRadius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
+      - Name: AutoHide
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
     - Name: ScrollBarStyle1
       Type: ScrollBarStyle
       Children:

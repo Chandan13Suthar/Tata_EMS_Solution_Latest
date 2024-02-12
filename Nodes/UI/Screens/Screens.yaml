@@ -48,6 +48,11 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: ImagePath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=30;%PROJECTDIR%/imgs/icons/Favorites-md.svg"
       - Name: Panel10
         Type: NavigationPanelItem
         Children:
@@ -64,6 +69,11 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: ImagePath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=30;%PROJECTDIR%/imgs/icons/Home-md.svg"
       - Name: Panel2
         Type: NavigationPanelItem
         Children:
@@ -96,6 +106,11 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: ImagePath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=30;%PROJECTDIR%/imgs/Logos/dashboard.png"
       - Name: Panel4
         Type: NavigationPanelItem
         Children:
@@ -112,6 +127,11 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: ImagePath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=30;%PROJECTDIR%/imgs/icons/reports.png"
       - Name: Panel5
         Type: NavigationPanelItem
         Children:
@@ -128,6 +148,11 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: ImagePath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ModellingRule: Optional
+          Value: "ns=30;%PROJECTDIR%/imgs/Logos/icons8-alarm-50.png"
       - Name: Panel6
         Type: NavigationPanelItem
         Children:
@@ -202,7 +227,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 192.0
+      Value: 300.0
     - Class: Reference
       Target: ns=5;i=1181
       Direction: Forward
@@ -214,6 +239,11 @@ Children:
       DataType: String
       ModellingRule: Optional
       Value: "Default"
+    - Name: TabHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
   - Name: BackgroundColor
     Type: BaseDataVariableType
     DataType: Color

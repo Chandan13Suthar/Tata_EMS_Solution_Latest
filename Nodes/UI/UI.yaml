@@ -602,27 +602,27 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=30;%PROJECTDIR%/imgs/Pima Logo.jpg"
+          Value: "ns=30;%PROJECTDIR%/imgs/Pima Logo 1.png"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -1.0
+          Value: 116.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 46.0
+          Value: 96.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 8.0
+          Value: -6.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 4.0
+          Value: -20.0
         - Name: HitTestVisible
           Type: BaseDataVariableType
           DataType: Boolean

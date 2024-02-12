@@ -333,22 +333,62 @@ Children:
           Value: "1601-01-01T00:00:00.0000000"
         - Name: Date
           Type: StoreColumn
-          DataType: BaseDataType
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
         - Name: Jace
           Type: StoreColumn
-          DataType: BaseDataType
+          DataType: String
+          Value: ""
         - Name: Meter
           Type: StoreColumn
-          DataType: BaseDataType
+          DataType: String
+          Value: ""
         - Name: Power
           Type: StoreColumn
-          DataType: BaseDataType
+          DataType: Int32
+          Value: 0
         - Name: Energy
           Type: StoreColumn
-          DataType: BaseDataType
+          DataType: Int32
+          Value: 0
         - Name: Pf
           Type: StoreColumn
-          DataType: BaseDataType
+          DataType: Int32
+          Value: 0
+    - Name: Home Page
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Jace
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Consumption
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Cost
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
   - Name: Type
     Type: PropertyType
     DataType: DBMSType
