@@ -1,5 +1,4 @@
 Name: MicroControllerStation1
-Id: g=5c61263e37a43f7622bd89c189f11895
 Type: MicroControllerStation
 Children:
 - Name: IPAddress

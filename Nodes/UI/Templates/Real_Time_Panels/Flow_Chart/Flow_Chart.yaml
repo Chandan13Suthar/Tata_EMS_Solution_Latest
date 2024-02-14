@@ -4350,24 +4350,31 @@ Children:
             DataType: LocalizedText
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
-            - Name: StringFormatter1
-              Type: StringFormatter
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
               Children:
-              - Name: Format
+              - Name: Condition
                 Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"","Text":"{0:n1}"}
-              - Name: ns=3;Source0
-                Type: BaseDataVariableType
-                DataType: BaseDataType
+                DataType: Boolean
                 ReferenceType: HasSource
+                Value: false
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable1@Value"
+                  Value: "../../../../../../Line Chart/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"Incomer-2"}
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"Incomer-1"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment

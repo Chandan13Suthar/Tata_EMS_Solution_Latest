@@ -2910,18 +2910,19 @@ Children:
                     DataType: LocalizedText
                     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
                       Children:
-                      - Name: Source0
+                      - Name: Condition
                         Type: BaseDataVariableType
-                        DataType: BaseDataType
+                        DataType: Boolean
                         ReferenceType: HasSource
+                        Value: false
                         Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable1@Value"
+                          Value: "../../../../../../Line Chart/Switch1/Checked"
               - Name: Rectangle13
                 Type: Rectangle
                 Children:
@@ -6621,18 +6622,19 @@ Children:
                     DataType: LocalizedText
                     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
                       Children:
-                      - Name: Source0
+                      - Name: Condition
                         Type: BaseDataVariableType
-                        DataType: BaseDataType
+                        DataType: Boolean
                         ReferenceType: HasSource
+                        Value: false
                         Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable1@Value"
+                          Value: "../../../../../../Line Chart/Switch1/Checked"
               - Name: Rectangle13
                 Type: Rectangle
                 Children:
@@ -10562,18 +10564,19 @@ Children:
                     DataType: LocalizedText
                     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
                       Children:
-                      - Name: Source0
+                      - Name: Condition
                         Type: BaseDataVariableType
-                        DataType: BaseDataType
+                        DataType: Boolean
                         ReferenceType: HasSource
+                        Value: false
                         Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable1@Value"
+                          Value: "../../../../../../Line Chart/Switch1/Checked"
               - Name: Rectangle13
                 Type: Rectangle
                 Children:
