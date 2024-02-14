@@ -4,7 +4,7 @@ Children:
 - Name: BreakerCapacity
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
+  Value: 1111.0
 - Name: PowerFactor
   Type: BaseDataVariableType
   DataType: Float
@@ -16,7 +16,7 @@ Children:
 - Name: BreakerCapacity%
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
+  Value: 12.899999618530273
 - Name: Consumption%
   Type: BaseDataVariableType
   DataType: Float

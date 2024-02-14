@@ -74,7 +74,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 50.0
+        Value: 1709.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
@@ -916,6 +916,17 @@ Children:
               Type: BaseDataVariableType
               DataType: Float
               Value: 0.0
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/PowerFactor"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -1226,6 +1237,17 @@ Children:
               Type: BaseDataVariableType
               DataType: Float
               Value: 0.0
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/Demand"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -3816,8 +3838,12 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Label1"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/Consumption/StampingTotal"
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -3900,8 +3926,12 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Label1"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/Consumption/UtilityTotal"
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -3984,8 +4014,12 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Label1"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/Consumption/PumpRoomTotal"
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -4068,7 +4102,6 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"Label1"}
             - Name: LeftMargin
               Type: BaseVariableType
@@ -4152,8 +4185,12 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Label1"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/Consumption/AdminTotal"
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -4236,8 +4273,12 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Label1"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/Consumption/BodyShopTotal"
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -4320,8 +4361,12 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Label1"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/Consumption/PaintShopTotal"
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -4404,8 +4449,12 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Label1"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/Consumption/TCFTotal"
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -4488,8 +4537,12 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Label1"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/Consumption/33KVTotal"
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -4755,6 +4808,17 @@ Children:
               Type: BaseDataVariableType
               DataType: Float
               Value: 0.0
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/Frequency"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -5043,8 +5107,26 @@ Children:
               - Name: Text
                 Type: BaseDataVariableType
                 DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"###.## kWh"}
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: StringFormatter1
+                  Type: StringFormatter
+                  Children:
+                  - Name: Format
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"","Text":"{0:n1}"}
+                  - Name: ns=3;Source0
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/TodayConsumption"
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -5182,8 +5264,12 @@ Children:
               - Name: Text
                 Type: BaseDataVariableType
                 DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"####.## INR"}
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/TodayCost"
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
