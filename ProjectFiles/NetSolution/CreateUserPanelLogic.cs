@@ -9,6 +9,8 @@ using FTOptix.UI;
 using FTOptix.AuditSigning;
 using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
+using FTOptix.MicroController;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class CreateUserPanelLogic : BaseNetLogic

@@ -7,6 +7,8 @@ using System.IO;
 using System.Reflection;
 using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
+using FTOptix.MicroController;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class ManageRemotePdf : BaseNetLogic

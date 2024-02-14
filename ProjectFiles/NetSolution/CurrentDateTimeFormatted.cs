@@ -10,6 +10,8 @@ using FTOptix.ODBCStore;
 using FTOptix.System;
 using FTOptix.OPCUAServer;
 using FTOptix.OPCUAClient;
+using FTOptix.MicroController;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class CurrentDateTimeFormatted : BaseNetLogic

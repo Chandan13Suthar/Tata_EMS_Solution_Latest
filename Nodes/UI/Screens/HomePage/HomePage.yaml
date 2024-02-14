@@ -1,7 +1,7 @@
 Name: HomePage
 Type: FolderType
 Children:
-- Name: Translations
+- Name: HomePage
   Id: g=7be928cdaab2ddee7c533d58bd1ea96b
   Supertype: BaseScreen
   ReferenceType: HasComponent

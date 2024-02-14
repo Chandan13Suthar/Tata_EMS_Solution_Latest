@@ -2904,21 +2904,69 @@ Children:
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: StringFormatter1
+                      Type: StringFormatter
+                      Children:
+                      - Name: Source0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable1@Value"
               - Name: Rectangle13
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable2"
               - Name: Rectangle14
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable3"
               - Name: Rectangle15
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable4"
               - Name: Rectangle16
                 Type: Rectangle
                 Children:
@@ -6567,21 +6615,69 @@ Children:
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: StringFormatter1
+                      Type: StringFormatter
+                      Children:
+                      - Name: Source0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable1@Value"
               - Name: Rectangle13
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable2"
               - Name: Rectangle14
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable3"
               - Name: Rectangle15
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable4"
               - Name: Rectangle16
                 Type: Rectangle
                 Children:
@@ -10460,21 +10556,69 @@ Children:
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: StringFormatter1
+                      Type: StringFormatter
+                      Children:
+                      - Name: Source0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable1@Value"
               - Name: Rectangle13
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable2"
               - Name: Rectangle14
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable3"
               - Name: Rectangle15
                 Type: Rectangle
                 Children:
                 - Name: Label1
                   Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/33Kv All Panels Tags/Variable4"
               - Name: Rectangle16
                 Type: Rectangle
                 Children:

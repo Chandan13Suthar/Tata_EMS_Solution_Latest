@@ -454,7 +454,7 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=30;%PROJECTDIR%/imgs/box.png"
+              Value: "ns=30;%PROJECTDIR%/Energy.jpg"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -581,6 +581,11 @@ Children:
               DataType: TextHorizontalAlignment
               ModellingRule: Optional
               Value: 1
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
         - Name: Rectangle7
           Type: Rectangle
           Children:

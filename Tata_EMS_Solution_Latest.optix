@@ -121,16 +121,32 @@ Project:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
    Version: 1.1
+  31:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 2.0
+  32:
+   Uri: 'urn:FTOptix:CommunicationDriver:Net'
+   Module: FTOptix.CommunicationDriver.Net
+   Version: 2.0
+  33:
+   Uri: 'urn:FTOptix:MicroController'
+   Module: FTOptix.MicroController
+   Version: 2.0
+  34:
+   Uri: 'urn:FTOptix:MicroController:Net'
+   Module: FTOptix.MicroController.Net
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 90110
-  Objects: 19082
+  TotalNodeCount: 90558
+  Objects: 19145
   ObjectTypes: 271
-  Variables: 70690
+  Variables: 71075
   VariableTypes: 0
   DataTypes: 45
   Methods: 22
-  References: 639
+  References: 645
   ReferenceTypes: 0
-  Files: 112
+  Files: 170
  Nodes:
  - File: Nodes/Tata_EMS_Solution_Latest.yaml

@@ -9,6 +9,8 @@ using FTOptix.UI;
 using FTOptix.OPCUAServer;
 using FTOptix.AuditSigning;
 using FTOptix.ODBCStore;
+using FTOptix.MicroController;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class LocaleComboBoxLogic : BaseNetLogic

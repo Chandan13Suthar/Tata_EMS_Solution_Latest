@@ -14,6 +14,8 @@ using FTOptix.Store;
 using FTOptix.SQLiteStore;
 using FTOptix.Core;
 using FTOptix.ODBCStore;
+using FTOptix.MicroController;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class GenericTableExporter : BaseNetLogic
