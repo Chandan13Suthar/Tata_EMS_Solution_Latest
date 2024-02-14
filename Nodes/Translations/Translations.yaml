@@ -10,7 +10,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [578,4],
+    "Dimensions": [580,4],
     "Body": [
      "","en-US","it-IT","zh-CN",
      "Acknowledge","Ack","Riconosci","确认",
@@ -589,7 +589,9 @@ Children:
      "NOT ","NOT ","NON ","不 ",
      "Change detection is set to: {0}._From now on, all changes to this control will {1}be saved.","Change detection is set to: {0}.\nFrom now on, all changes to this control will {1}be saved.","Il rilevamento delle modifiche è impostato su: {0}.\nD'ora in poi, tutte le modifiche apportate a questo controllo {1}verranno salvate.","更改检测设置为：{0}。\n从现在开始，对此控件的所有更改都将{1}保存。",
      "Daily Consumption Report","Daily Consumption Report","Rapporto sui consumi giornalieri","每日消费报告",
-     "Monthly Consumption Report","Monthly Consumption Report","Informe de consumo mensual","每月消费报告"
+     "Monthly Consumption Report","Monthly Consumption Report","Informe de consumo mensual","每月消费报告",
+     "Acknowledge All","Acknowledge All","Riconosci tutti","全部确认",
+     "Confirm All","Confirm All","Conferma tutti","全部证实"
     ]
    }
 - Name: ImportAndExportTranslations
