@@ -818,3 +818,4 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: false
+- File: Alarms/Alarms.yaml

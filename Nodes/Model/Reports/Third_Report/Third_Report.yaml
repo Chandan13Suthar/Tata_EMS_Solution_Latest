@@ -1,0 +1,8 @@
+Name: Third Report
+Type: FolderType
+Children:
+- Name: DistributionPath
+  Id: g=55dac66ae06da10d4eedea5ac87bcfce
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "D:\\Jatin Bhai\\DistributionReport.pdf"
