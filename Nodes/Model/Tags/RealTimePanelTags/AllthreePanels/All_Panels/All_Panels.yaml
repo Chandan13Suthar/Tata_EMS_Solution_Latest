@@ -1,0 +1,23 @@
+Name: All Panels
+Type: FolderType
+Children:
+- File: 33kv2/33kv2.yaml
+- File: SPP2/SPP2.yaml
+- File: Spare2/Spare2.yaml
+- File: Utility2/Utility2.yaml
+- File: Stamping2/Stamping2.yaml
+- File: TCF2/TCF2.yaml
+- File: BodyShop2/BodyShop2.yaml
+- File: EngineShop2/EngineShop2.yaml
+- File: PaintShop2/PaintShop2.yaml
+- File: EB_Incomer/EB_Incomer.yaml
+- File: DG_Incomer/DG_Incomer.yaml
+- File: 33kv1/33kv1.yaml
+- File: SPP1/SPP1.yaml
+- File: Spare1/Spare1.yaml
+- File: Utility1/Utility1.yaml
+- File: Stamping1/Stamping1.yaml
+- File: TCF1/TCF1.yaml
+- File: BodyShop1/BodyShop1.yaml
+- File: EngineShop1/EngineShop1.yaml
+- File: PaintShop1/PaintShop1.yaml
