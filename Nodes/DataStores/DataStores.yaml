@@ -385,6 +385,48 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
+    - Name: Comparision Dashboard
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Jace
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Consumption
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Target
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: YearLowest
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: MonthLowest
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Average
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
   - Name: Type
     Type: PropertyType
     DataType: DBMSType

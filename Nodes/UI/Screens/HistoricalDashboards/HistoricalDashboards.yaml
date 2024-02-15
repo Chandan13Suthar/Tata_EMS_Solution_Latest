@@ -35180,7 +35180,7 @@ Children:
                     - Name: ns=3;ObjectPointer
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Reports/ConsumptionDistributionReport"
+                      Value: {"IdType":2,"Id":"29faea6b5ba6564b67529ba05ea75320","Namespace":30}
                       Children:
                       - Name: Kind
                         Type: PropertyType
@@ -35308,106 +35308,6 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 98.0
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
-              - Name: FontFamily
-                Type: BaseDataVariableType
-                DataType: Font
-                ModellingRule: Optional
-                Value: "Lucida Fax"
-              - Name: TextColor
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#ffffff"
-            - Name: DateAndTime2
-              Type: DateTimePicker
-              Children:
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: DateTime
-                Value: "1601-01-01T00:00:00.0000000"
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 740.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 99.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: ReadOnly
-                Type: BaseDataVariableType
-                DataType: Boolean
-                ModellingRule: Optional
-                Value: true
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: -1.0
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 180.0
-              - Name: Style
-                Type: BaseDataVariableType
-                DataType: String
-                ModellingRule: Optional
-                Value: "Combo_box_style"
-            - Name: Label8
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Date To     :"}
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 105.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 21.0
-              - Name: TextHorizontalAlignment
-                Type: BaseVariableType
-                DataType: TextHorizontalAlignment
-                ModellingRule: Optional
-                Value: 0
-              - Name: TextVerticalAlignment
-                Type: BaseVariableType
-                DataType: TextVerticalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 15.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 631.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 106.0
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
