@@ -315,3 +315,4 @@ Children:
     DataType: PdfViewerZoomMode
     ModellingRule: Optional
     Value: 0
+- File: Individual_Panels/Individual_Panels.yaml

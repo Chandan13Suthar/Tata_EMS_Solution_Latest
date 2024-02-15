@@ -260,7 +260,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: NodeId
                     Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                    Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/JACE_Selected_Panel/33kv Incomer_1/Incomer_1"
+                    Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/JACE_Selected_Panel/33kv Switchgear/Incomer_1"
                   - Name: AliasNode
                     Type: BaseDataVariableType
                     DataType: NodeId
@@ -373,7 +373,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: NodeId
                     Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                    Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/JACE_Selected_Panel/33kv Incomer_1/Incomer_1"
+                    Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/JACE_Selected_Panel/33kv Switchgear/Incomer_1"
                   - Name: AliasNode
                     Type: BaseDataVariableType
                     DataType: NodeId
@@ -486,7 +486,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/JACE_Selected_Panel/33kv Incomer_1/Incomer_1"
+                  Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/JACE_Selected_Panel/33kv Switchgear/Incomer_1"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
