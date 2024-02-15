@@ -427,6 +427,10 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
   - Name: Type
     Type: PropertyType
     DataType: DBMSType
