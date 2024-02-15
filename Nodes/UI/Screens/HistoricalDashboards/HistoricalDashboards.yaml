@@ -6009,7 +6009,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 32.0
+                      Value: 29.0
                     - Name: LeftMargin
                       Type: BaseVariableType
                       DataType: Size
@@ -6031,13 +6031,13 @@ Children:
                       ModellingRule: Optional
                       Value: "ChartStyle1"
                     - Class: Reference
-                      Target: ns=5;i=1129
+                      Target: ns=5;i=1209
                       Direction: Forward
                     - Class: Reference
                       Target: ns=5;i=1201
                       Direction: Forward
                     - Class: Reference
-                      Target: ns=5;i=1209
+                      Target: ns=5;i=1129
                       Direction: Forward
                 - Name: HorizontalAlignment
                   Type: BaseVariableType
@@ -35065,6 +35065,206 @@ Children:
                 DataType: Font
                 ModellingRule: Optional
                 Value: "Cooper Black"
+              - Name: MouseClickEventHandler1
+                Type: EventHandler
+                Children:
+                - Name: ListenEventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                - Name: MethodsToCall
+                  Type: BaseObjectType
+                  Children:
+                  - Name: MethodContainer1
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: "/Objects/Commands/VariableCommands"
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Set"
+                    - Name: InputArguments
+                      Type: BaseObjectType
+                      Children:
+                      - Name: VariableToModify
+                        Type: BaseDataVariableType
+                        DataType: VariablePointer
+                        Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                        Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Third Report/DistributionPath"
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                        Value: ""
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Format
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            ReferenceType: HasParameter
+                            ModellingRule: Optional
+                            Value: {"LocaleId":"en-US","Text":"D:\\Jatin Bhai\\DistributionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          - Name: ns=3;Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_Solution_Latest/Model/DateTime/CurrDateTime/Year"
+                          - Name: ns=3;Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_Solution_Latest/Model/DateTime/CurrDateTime/Month"
+                          - Name: ns=3;Source2
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_Solution_Latest/Model/DateTime/CurrDateTime/Day"
+                          - Name: ns=3;Source3
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_Solution_Latest/Model/DateTime/CurrDateTime/Hour"
+                          - Name: ns=3;Source4
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_Solution_Latest/Model/DateTime/CurrDateTime/Minute"
+                          - Name: ns=3;Source5
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_Solution_Latest/Model/DateTime/CurrDateTime/Second"
+                      - Name: ArrayIndex
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                        ValueRank: ScalarOrOneDimension
+                        Value: 0
+                  - Name: MethodContainer2
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Reports/ConsumptionDistributionReport"
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "GeneratePdf"
+                    - Name: InputArguments
+                      Type: BaseObjectType
+                      Children:
+                      - Name: OutputPath
+                        Type: BaseDataVariableType
+                        DataType: ResourceUri
+                        Description: {"NamespaceIndex":15,"TextId":"GeneratePdfOutputPathDescription"}
+                        Value: ""
+                        Children:
+                        - Name: StringFormatter1
+                          Type: StringFormatter
+                          Children:
+                          - Name: Format
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            ReferenceType: HasParameter
+                            ModellingRule: Optional
+                            Value: {"LocaleId":"en-US","Text":"file:///{0}"}
+                          - Name: ns=3;Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Third Report/DistributionPath"
+                      - Name: LocaleId
+                        Type: BaseDataVariableType
+                        DataType: LocaleId
+                        Description: {"NamespaceIndex":15,"TextId":"GeneratePdfLocaleIdDescription"}
+                        Value: ""
+                    - Name: OutputArguments
+                      Type: BaseObjectType
+                      Children:
+                      - Name: OperationId
+                        Type: BaseDataVariableType
+                        DataType: Guid
+                        Description: {"NamespaceIndex":15,"TextId":"GeneratePdfOperationIdDescription"}
+                        Value: "00000000000000000000000000000000"
+                - Name: EventArguments
+                  Type: MouseClickEvent
+                  Children:
+                  - Name: EventId
+                    Type: PropertyType
+                    DataType: ByteString
+                    Value: ""
+                  - Name: EventType
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: SourceNode
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: SourceName
+                    Type: PropertyType
+                    DataType: String
+                    Value: ""
+                  - Name: Time
+                    Type: PropertyType
+                    DataType: UtcTime
+                    Value: "1601-01-01T00:00:00.0000000"
+                  - Name: ReceiveTime
+                    Type: PropertyType
+                    DataType: UtcTime
+                    Value: "1601-01-01T00:00:00.0000000"
+                  - Name: Message
+                    Type: PropertyType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  - Name: Severity
+                    Type: PropertyType
+                    DataType: UInt16
+                    Value: 0
             - Name: Label7
               Type: Label
               Children:

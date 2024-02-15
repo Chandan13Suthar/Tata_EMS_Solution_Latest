@@ -16,7 +16,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../Model/Alarms/Voltage"
+      Value: "../../../../Model/Alarms/Voltage"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -59,7 +59,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../Model/Alarms/Pressure"
+      Value: "../../../../Model/Alarms/Pressure"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -98,7 +98,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../Model/Alarms/Temperature"
+      Value: "../../../../Model/Alarms/Temperature"
       Children:
       - Name: Mode
         Type: BaseVariableType

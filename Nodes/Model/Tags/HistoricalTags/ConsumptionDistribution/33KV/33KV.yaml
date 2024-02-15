@@ -4,7 +4,7 @@ Children:
 - Name: Consumption
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
+  Value: 2589.360107421875
 - Name: Target
   Type: BaseDataVariableType
   DataType: Float
