@@ -6009,7 +6009,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 32.0
+                      Value: 29.0
                     - Name: LeftMargin
                       Type: BaseVariableType
                       DataType: Size
@@ -6031,13 +6031,13 @@ Children:
                       ModellingRule: Optional
                       Value: "ChartStyle1"
                     - Class: Reference
-                      Target: ns=5;i=1129
+                      Target: ns=5;i=1209
                       Direction: Forward
                     - Class: Reference
                       Target: ns=5;i=1201
                       Direction: Forward
                     - Class: Reference
-                      Target: ns=5;i=1209
+                      Target: ns=5;i=1129
                       Direction: Forward
                 - Name: HorizontalAlignment
                   Type: BaseVariableType

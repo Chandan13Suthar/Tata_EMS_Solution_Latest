@@ -555,8 +555,8 @@ Children:
         Value: 0
     - Name: Pf
       Type: VariableToLog
-      DataType: Int32
-      Value: 0
+      DataType: Float
+      Value: 0.0
       Children:
       - Name: LastValue
         Type: PropertyType

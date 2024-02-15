@@ -308,7 +308,7 @@ Children:
         - Name: Key
           Type: BaseDataVariableType
           DataType: UInt32
-          Value: 0
+          Value: 10
         - Name: Value
           Type: BaseDataVariableType
           DataType: Int32
@@ -319,7 +319,7 @@ Children:
         - Name: Key
           Type: BaseDataVariableType
           DataType: UInt32
-          Value: 0
+          Value: 11
         - Name: Value
           Type: BaseDataVariableType
           DataType: Int32
