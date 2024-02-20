@@ -1367,6 +1367,14 @@ Children:
                   Value: "ns=30;%PROJECTDIR%/imgs/line.png"
                 - Name: PolyLine1
                   Type: PolyLine
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  Value: 50.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  Value: 70.0
               - Name: PolyLine1
                 Type: PolyLine
               - Name: Transformer1

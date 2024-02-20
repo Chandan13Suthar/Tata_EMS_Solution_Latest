@@ -1778,6 +1778,11 @@ Children:
           - Class: Reference
             Target: ns=5;i=1183
             Direction: Forward
+          - Name: Style
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: Optional
+            Value: "NavigationPanelStyle1"
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText

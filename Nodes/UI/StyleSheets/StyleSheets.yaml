@@ -587,6 +587,8 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 0.0
+    - Name: NewButton
+      Type: ButtonStyle
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
