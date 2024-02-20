@@ -431,3 +431,554 @@ Children:
     Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"NamespaceIndex":30,"TextId":"FitWidth"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"NamespaceIndex":30,"TextId":"FitHeight"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"NamespaceIndex":30,"TextId":"FitPage"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"NamespaceIndex":30,"TextId":"ActualSize"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"NamespaceIndex":30,"TextId":"CustomLevel"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
 - File: Tags/Tags.yaml
 - File: Folder1/Folder1.yaml
+- Name: RuntimeNetLogic
+  Id: g=b7448545c357bab5eb48a5477530fa05
+  Supertype: NetLogic
+  ReferenceType: HasComponent
+- Name: RuntimeNetLogic1
+  Id: g=7084dd53ce32173f87bc54f200e9b96a
+  Supertype: NetLogic
+  ReferenceType: HasComponent
+- Name: ComparisionInstance
+  Type: Comparision
+  Children:
+  - Name: RuntimeNetLogic2
+    Type: NetLogic
+  - Name: Date
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Reports/Third Report/Date"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Target
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Yearlowest
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Monthlowest
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Average
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Consumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: GBUTTON
+    Id: g=e81d273ffb51d031bccc4fe5656aa0a3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: JaceStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionStamping
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionTcf
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionBodyshop
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionEngineshop
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JacePaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AveragePaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionPaintshop
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionSpp
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionSpare
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Jace33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Target33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Yearlowest33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Monthlowest33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Average33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Consumption33KV
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Utilitypercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Stampingpercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Bodyshoppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Engineshoppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Paintshoppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Spppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Sparepercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Tcfpercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+- Name: Comparision
+  Id: g=8d89a5fce1435f2e42dcb0f1e89bcaab
+  Supertype: BaseObjectType
+  Children:
+  - Name: RuntimeNetLogic2
+    Type: NetLogic
+  - Name: Date
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Target
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Yearlowest
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Monthlowest
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Average
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Consumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: GBUTTON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: JaceStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionStamping
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionTcf
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionBodyshop
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionEngineshop
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JacePaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AveragePaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionPaintshop
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionSpp
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionSpare
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Jace33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Target33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Yearlowest33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Monthlowest33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Average33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Consumption33KV
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Utilitypercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Stampingpercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Bodyshoppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Engineshoppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Paintshoppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Spppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Sparepercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Tcfpercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+- File: Histo_Dashboard/Histo_Dashboard.yaml

@@ -412,7 +412,6 @@ Children:
               Value: 1
           - Class: Method
             Name: GoToUserDetailsPanel
-            Id: g=7bf0023af9b2c835eeb18f8f370f339e
             Children:
             - Name: ns=0;InputArguments
               Type: BaseVariableType
@@ -594,7 +593,6 @@ Children:
           Children:
           - Class: Method
             Name: DeleteUser
-            Id: g=9045f952a54071e3f8bbb9f5724b571d
             Children:
             - Name: ns=0;InputArguments
               Type: BaseVariableType

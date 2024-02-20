@@ -818,13 +818,13 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: false
-- Name: Comparision Dashboard
+- Name: ConsumptionDistribution
   Type: DataLogger
   Children:
   - Name: SamplingMode
     Type: PropertyType
     DataType: SamplingModeEnum
-    Value: 1
+    Value: 2
   - Name: Store
     Type: NodePointer
     DataType: NodeId
@@ -837,7 +837,45 @@ Children:
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
+    - Name: Date
+      Type: VariableToLog
+      DataType: DateTime
+      Value: "1601-01-01T00:00:00.0000000"
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
     - Name: Jace
+      Type: VariableToLog
+      DataType: String
+      Value: ""
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+    - Name: Meter
       Type: VariableToLog
       DataType: String
       Value: ""
@@ -875,7 +913,7 @@ Children:
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
-    - Name: YearLowest
+    - Name: Yearlowest
       Type: VariableToLog
       DataType: Float
       Value: 0.0
@@ -894,7 +932,7 @@ Children:
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
-    - Name: MonthLowest
+    - Name: Monthlowest
       Type: VariableToLog
       DataType: Float
       Value: 0.0
@@ -913,7 +951,7 @@ Children:
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
-    - Name: Average
+    - Name: Consumption
       Type: VariableToLog
       DataType: Float
       Value: 0.0
@@ -939,4 +977,12 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
+  - Name: LogVariableOperationCode
+    Type: PropertyType
+    DataType: Boolean
+    Value: false
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:01:00:1.0000000"
 - File: Alarms/Alarms.yaml

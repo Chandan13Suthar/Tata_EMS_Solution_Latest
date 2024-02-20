@@ -1,0 +1,16 @@
+Name: Histo Dashboard
+Type: FolderType
+Children:
+- Name: Avgpf
+  Id: g=75c6e1c031ff50b30628ca0d5b4a3a4d
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Datefrom
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: Dateto
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"

@@ -15645,7 +15645,7 @@ Children:
           - Name: Tile_Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"Monthly Consumption Report"}
+            Value: {"LocaleId":"en-US","Text":"Consumption Distribution Report"}
           - Name: Tile_Subtitle
             Type: BaseDataVariableType
             DataType: LocalizedText
