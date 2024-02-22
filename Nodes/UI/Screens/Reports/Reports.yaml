@@ -8073,7 +8073,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 7.0
+              Value: 11.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -8525,7 +8525,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 20.0
+              Value: 19.0
           - Name: Refresh
             Type: Button
             Children:
@@ -17979,12 +17979,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 977.0
+            Value: 979.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 5.0
+            Value: 1.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -18314,7 +18314,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/ComparisionInstance/Target"
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Third Report/Utility_Target"
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
