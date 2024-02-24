@@ -253,6 +253,8 @@ public class RuntimeNetLogic1 : BaseNetLogic
             avgpfVariable.Value = avgpf;
             avgfrequencyVariable.Value = avgfrequency;
             consumptionVariable.Value = consumption;
+            
+
 
 
         }

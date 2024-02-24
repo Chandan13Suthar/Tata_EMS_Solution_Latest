@@ -743,7 +743,7 @@ Children:
                     - Name: Model
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Comparision_Dashboard/Selection_1_JaceSelection"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Selection_1_JaceSelection"
                       Children:
                       - Name: ItemKind
                         Type: PropertyType
@@ -849,7 +849,7 @@ Children:
                     - Name: Model
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Comparision_Dashboard/Selection_1_MeterSelection_33kv"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Selection_1_MeterSelection_33kv"
                       Children:
                       - Name: ItemKind
                         Type: PropertyType
@@ -1111,7 +1111,7 @@ Children:
                     - Name: Model
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Comparision_Dashboard/Selection_1_MeterSelection_utility"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Selection_1_MeterSelection_utility"
                       Children:
                       - Name: ItemKind
                         Type: PropertyType
@@ -1373,7 +1373,7 @@ Children:
                     - Name: Model
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Comparision_Dashboard/Selection_1_MeterSelection_pumproom"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Selection_1_MeterSelection_pumproom"
                       Children:
                       - Name: ItemKind
                         Type: PropertyType
@@ -1635,7 +1635,7 @@ Children:
                     - Name: Model
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Comparision_Dashboard/Selection_1_MeterSelection_paintshop"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Selection_1_MeterSelection_paintshop"
                       Children:
                       - Name: ItemKind
                         Type: PropertyType
@@ -1897,7 +1897,7 @@ Children:
                     - Name: Model
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Comparision_Dashboard/Selection_1_MeterSelection_bodyshop"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Selection_1_MeterSelection_bodyshop"
                       Children:
                       - Name: ItemKind
                         Type: PropertyType
@@ -2159,7 +2159,7 @@ Children:
                     - Name: Model
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Comparision_Dashboard/Selection_1_MeterSelection_tcf"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Selection_1_MeterSelection_tcf"
                       Children:
                       - Name: ItemKind
                         Type: PropertyType
@@ -2421,7 +2421,7 @@ Children:
                     - Name: Model
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Comparision_Dashboard/Selection_1_MeterSelection_stamping"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Selection_1_MeterSelection_stamping"
                       Children:
                       - Name: ItemKind
                         Type: PropertyType
@@ -2683,7 +2683,7 @@ Children:
                     - Name: Model
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Comparision_Dashboard/Selection_1_MeterSelection_admin"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Selection_1_MeterSelection_admin"
                       Children:
                       - Name: ItemKind
                         Type: PropertyType
@@ -5491,7 +5491,7 @@ Children:
                     - Name: Model
                       Type: NodePointer
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Comparision_Dashboard/Select_Comparision"
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Select_Comparision"
                       Children:
                       - Name: ItemKind
                         Type: PropertyType
@@ -5911,16 +5911,21 @@ Children:
                     DataType: Color
                     ModellingRule: Optional
                     Value: "#000000"
-                  - Name: Trend1
-                    Type: Trend
+                  - Name: XYChart1
+                    Type: XYChart
                     Children:
                     - Name: Pens
                       Type: BaseObjectType
                       Children:
-                      - Name: TrendPen1
-                        Type: TrendPen
-                        DataType: BaseDataType
+                      - Name: ArrayLinePen1
+                        Type: XYChartArrayLinePen
                         Children:
+                        - Name: PointArray
+                          Type: BaseDataVariableType
+                          DataType: Number
+                          ValueRank: 2
+                          ArrayDimensions: [0,0]
+                          Value: {"Type":11,"Dimensions":[0,0],"Body":[]}
                         - Name: Thickness
                           Type: BaseDataVariableType
                           DataType: Size
@@ -5929,110 +5934,23 @@ Children:
                           Type: BaseDataVariableType
                           DataType: Boolean
                           Value: true
-                        - Name: Thresholds
-                          Type: BaseObjectType
-                        - Name: Color
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          ModellingRule: Optional
-                          Value: "#ffffff"
-                    - Name: XAxis
-                      Type: DateTimeAxis
-                      Children:
-                      - Name: Follow
-                        Type: BaseDataVariableType
-                        DataType: Boolean
-                        Value: true
-                      - Name: Window
-                        Type: BaseDataVariableType
-                        DataType: Duration
-                        Value: "0:00:00:5.0000000"
-                      - Name: Interactive
-                        Type: BaseDataVariableType
-                        DataType: Boolean
-                        Value: true
-                      - Name: Time
-                        Type: BaseDataVariableType
-                        DataType: DateTime
-                        Value: "1601-01-01T00:00:00.0000000"
-                    - Name: YAxis
-                      Type: ValueAxis
-                      Children:
-                      - Name: Position
-                        Type: BaseDataVariableType
-                        DataType: HorizontalPositionEnum
-                        Value: 0
-                      - Name: MinValue
-                        Type: BaseDataVariableType
-                        DataType: Size
-                        Value: -100.0
-                      - Name: MaxValue
-                        Type: BaseDataVariableType
-                        DataType: Size
-                        Value: 100.0
-                      - Name: AutoScale
-                        Type: BaseDataVariableType
-                        DataType: Boolean
-                        Value: false
-                      - Name: Interactive
-                        Type: BaseDataVariableType
-                        DataType: Boolean
-                        Value: true
                     - Name: LegendVisible
                       Type: BaseDataVariableType
                       DataType: Boolean
                       Value: true
-                    - Name: TimeRanges
-                      Type: BaseObjectType
+                    - Class: Reference
+                      Target: ns=5;i=573
+                      Direction: Forward
                     - Name: Width
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 837.0
+                      Value: 1197.0
                     - Name: Height
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 190.0
-                    - Name: ReferenceTimeZone
-                      Type: BaseDataVariableType
-                      DataType: ReferenceTimeZone
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 29.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 42.0
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 3
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: ChartStyle
-                      Type: BaseDataVariableType
-                      DataType: String
-                      ModellingRule: Optional
-                      Value: "ChartStyle1"
-                    - Class: Reference
-                      Target: ns=5;i=1209
-                      Direction: Forward
-                    - Class: Reference
-                      Target: ns=5;i=1201
-                      Direction: Forward
-                    - Class: Reference
-                      Target: ns=5;i=1129
-                      Direction: Forward
+                      Value: 230.0
                 - Name: HorizontalAlignment
                   Type: BaseVariableType
                   DataType: HorizontalAlignment

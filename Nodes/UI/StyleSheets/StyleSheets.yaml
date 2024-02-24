@@ -143,6 +143,15 @@ Children:
     Children:
     - Name: Default
       Type: DataListStyle
+      Children:
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: HeaderFontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
   - Name: ToolTipStyles
     Type: BaseObjectType
     Children:
@@ -609,6 +618,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#020a63"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 16.0
     - Name: InputBoxStyle1
       Type: InputBoxStyle
   - Name: SwitchStyles
@@ -852,6 +865,14 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#010425"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: HeaderFontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 12.0
     - Name: DataListStyle1
       Type: DataListStyle
   - Name: ToolTipStyles

@@ -1137,6 +1137,811 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
+- Name: _33KVAlarm1
+  Type: _33KVAlarm
+  Children:
+  - Name: AvgConsumptionIncomer1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionIncomer2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN1OG1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN1OG2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN1OG3
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN1OG4
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN1OG5
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG6
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN1OG7
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN2OG8
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN2OG9
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN2G10
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN2OG11
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN2OG12
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN2OG13
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN2OG14
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN2OG15
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN1OG16
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionEBIN1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionDGIN1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionIncomer1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionIncomer2new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN1OG1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN1OG2new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN1OG3new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN1OG4new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN1OG5new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG6new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN1OG7new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN2OG8new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN2OG9new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN2G10new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN2OG11new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN2OG12new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN2OG13new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN2OG14new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN2OG15new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN1OG16new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: RuntimeNetLogic4
+    Type: NetLogic
+  - Name: AvgConsumptionEBIN1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionDGIN1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AlarmIncomer1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmIncomer2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPAREIN1OG1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmUTILITYIN1OG2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSTAMPINGIN1OG3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmTCFIN1OG4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmBODYSHOPIN1OG5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmENGINESHOPIN1OG6
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmPAINTSHOPIN1OG7
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmPAINTSHOPIN2OG8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmENGINESHOPIN2OG9
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmBODYSHOPIN2G10
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmTCFIN2OG11
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSTAMPINGIN2OG12
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmUTILITYIN2OG13
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPAREIN2OG14
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPPShopIN2OG15
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPPShopIN1OG16
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmEBIN1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmDGIN1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Date
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Alarms/Date"
+- Name: _33KVAlarm
+  Id: g=1ee070ebf8c8512f95444c9c70a33260
+  Supertype: BaseObjectType
+  Children:
+  - Name: AvgConsumptionIncomer1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionIncomer2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN1OG1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN1OG2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN1OG3
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN1OG4
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN1OG5
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG6
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN1OG7
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN2OG8
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN2OG9
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN2G10
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN2OG11
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN2OG12
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN2OG13
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN2OG14
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN2OG15
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN1OG16
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionEBIN1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionDGIN1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionIncomer1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionIncomer2new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN1OG1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN1OG2new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN1OG3new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN1OG4new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN1OG5new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG6new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN1OG7new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN2OG8new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN2OG9new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN2G10new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN2OG11new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN2OG12new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN2OG13new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN2OG14new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN2OG15new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN1OG16new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: RuntimeNetLogic4
+    Type: NetLogic
+  - Name: AvgConsumptionEBIN1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionDGIN1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AlarmIncomer1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmIncomer2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPAREIN1OG1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmUTILITYIN1OG2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSTAMPINGIN1OG3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmTCFIN1OG4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmBODYSHOPIN1OG5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmENGINESHOPIN1OG6
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmPAINTSHOPIN1OG7
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmPAINTSHOPIN2OG8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmENGINESHOPIN2OG9
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmBODYSHOPIN2G10
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmTCFIN2OG11
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSTAMPINGIN2OG12
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmUTILITYIN2OG13
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPAREIN2OG14
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPPShopIN2OG15
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPPShopIN1OG16
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmEBIN1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmDGIN1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Date
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Alarms/Date"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+- Name: _33KVAlarmInstance
+  Type: _33KVAlarm
+  Children:
+  - Name: AvgConsumptionIncomer1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionIncomer2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN1OG1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN1OG2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN1OG3
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN1OG4
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN1OG5
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG6
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN1OG7
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN2OG8
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN2OG9
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN2G10
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN2OG11
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN2OG12
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN2OG13
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN2OG14
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN2OG15
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN1OG16
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionEBIN1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionDGIN1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionIncomer1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionIncomer2new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN1OG1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN1OG2new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN1OG3new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN1OG4new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN1OG5new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG6new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN1OG1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN1OG7new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionPAINTSHOPIN2OG8new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionENGINESHOPIN2OG9new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionBODYSHOPIN2G10new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionTCFIN2OG11new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSTAMPINGIN2OG12new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionUTILITYIN2OG13new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPAREIN2OG14new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN2OG15new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionSPPShopIN1OG16new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: RuntimeNetLogic4
+    Type: NetLogic
+  - Name: AvgConsumptionEBIN1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgConsumptionDGIN1new
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AlarmIncomer1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmIncomer2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPAREIN1OG1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmUTILITYIN1OG2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSTAMPINGIN1OG3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmTCFIN1OG4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmBODYSHOPIN1OG5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmENGINESHOPIN1OG6
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmPAINTSHOPIN1OG7
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmPAINTSHOPIN2OG8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmENGINESHOPIN2OG9
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmBODYSHOPIN2G10
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmTCFIN2OG11
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSTAMPINGIN2OG12
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmUTILITYIN2OG13
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPAREIN2OG14
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPPShopIN2OG15
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmSPPShopIN1OG16
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmEBIN1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: AlarmDGIN1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Date
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Alarms/Date"
 - Name: hourlydata
   Type: BaseObjectType
   Children:

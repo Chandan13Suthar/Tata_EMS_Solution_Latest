@@ -7,8 +7,8 @@ Children:
   Value: 0
 - Name: Voltage
   Type: BaseDataVariableType
-  DataType: Boolean
-  Value: false
+  DataType: Int32
+  Value: 0
 - Name: Pressure
   Type: BaseDataVariableType
   DataType: Boolean
@@ -121,6 +121,104 @@ Children:
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone1'"},"Description":{"NamespaceIndex":30,"TextId":"Zone1"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone2'"},"Description":{"NamespaceIndex":30,"TextId":"Zone2"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone3'"},"Description":{"NamespaceIndex":30,"TextId":"Zone3"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone1' OR Area='Zone2' OR Area='Zone3'"},"Description":{"NamespaceIndex":30,"TextId":"All"}}}]
+- Name: DigitalAlarm1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../_33KVAlarmInstance/AlarmIncomer1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"Sudden Rate Of Consumption Change From {0} To {1}."}
+      - Name: ns=3;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../_33KVAlarmInstance/AvgConsumptionIncomer1"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+      - Name: ns=3;Source1
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../_33KVAlarmInstance/AvgConsumptionIncomer1new"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
 - File: Area/Area.yaml
 - File: Runtime/Runtime.yaml
 - Name: ZoneSelection
@@ -128,3 +226,11 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "SELECT * FROM Model WHERE Area='Zone1' OR Area='Zone2' OR Area='Zone3'"
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Date
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"

@@ -550,12 +550,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 86.0
+              Value: 626.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 138.0
+              Value: 748.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -847,8 +847,12 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"#.###"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/_33KVAlarmInstance/AvgConsumptionIncomer1"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -863,12 +867,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 135.0
+              Value: 581.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 159.0
+              Value: 391.0
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -1440,8 +1444,12 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Alarms"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/_33KVAlarmInstance/AvgConsumptionIncomer1"
             - Name: FontFamily
               Type: BaseDataVariableType
               DataType: Font
@@ -1456,12 +1464,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 58.0
+              Value: 465.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 3.0
+              Value: 2.0
             - Name: TextHorizontalAlignment
               Type: BaseVariableType
               DataType: TextHorizontalAlignment
@@ -1654,7 +1662,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: -20.0
+                Value: 80.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 86.0
             - Name: AlarmBannerLogic
               Type: NetLogic
               Children:
@@ -1708,7 +1721,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 40.0
+                Value: 38.0
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -1822,6 +1835,21 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 2
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 4.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 1.0
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
             - Name: NextAlarm
               Type: Button
               Children:
@@ -1952,12 +1980,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 19.0
+                Value: 15.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 2.0
+                Value: 1.0
               - Name: BottomMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -2445,7 +2473,7 @@ Children:
                   - Name: Width
                     Type: BaseDataVariableType
                     DataType: Size
-                    Value: 130.0
+                    Value: 200.0
                   - Name: HeaderAlignment
                     Type: BaseDataVariableType
                     DataType: TextHorizontalAlignment
@@ -2826,41 +2854,6 @@ Children:
                       Type: BaseDataVariableType
                       DataType: Size
                       Value: 16.0
-                - Name: Severity
-                  Type: DataGridColumn
-                  Children:
-                  - Name: Title
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    Value: {"NamespaceIndex":30,"TextId":"Severity"}
-                  - Name: Width
-                    Type: BaseDataVariableType
-                    DataType: Size
-                    Value: 80.0
-                  - Name: HeaderAlignment
-                    Type: BaseDataVariableType
-                    DataType: TextHorizontalAlignment
-                    Value: 2
-                  - Name: ContentAlignment
-                    Type: BaseVariableType
-                    DataType: HorizontalAlignment
-                    Value: 1
-                  - Name: OrderBy
-                    Type: BaseDataVariableType
-                    DataType: NodePath
-                    Value: "{Item}/Severity"
-                  - Name: DataItemTemplate
-                    Type: DataGridLabelItemTemplate
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                      Children:
-                      - Name: CollegamentoDinamico
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "{Item}/Severity"
               - Name: SelectedItem
                 Type: NodePointer
                 DataType: NodeId
@@ -2948,6 +2941,68 @@ Children:
               DataType: VerticalAlignment
               ModellingRule: Optional
               Value: 3
+          - Name: Label2
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/_33KVAlarmInstance/Date"
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 25.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 453.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -40.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 2
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 0.0
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
@@ -3694,6 +3749,17 @@ Children:
               Type: BaseDataVariableType
               DataType: Float
               Value: 0.0
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/Alarms/Variable1"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -3701,7 +3767,7 @@ Children:
             - Name: MaxValue
               Type: BaseDataVariableType
               DataType: Float
-              Value: 100.0
+              Value: 400.0
             - Name: WarningZones
               Type: BaseObjectType
             - Name: Width
@@ -4685,59 +4751,6 @@ Children:
               DataType: FontWeightEnum
               ModellingRule: Optional
               Value: 700
-          - Name: Average_Frequency
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"#.###"}
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 130.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 29.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 135.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 159.0
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 40.0
-            - Name: FontFamily
-              Type: BaseDataVariableType
-              DataType: Font
-              ModellingRule: Optional
-              Value: "Cooper Black"
-            - Name: TextHorizontalAlignment
-              Type: BaseVariableType
-              DataType: TextHorizontalAlignment
-              ModellingRule: Optional
-              Value: 1
-            - Name: TextVerticalAlignment
-              Type: BaseVariableType
-              DataType: TextVerticalAlignment
-              ModellingRule: Optional
-              Value: 1
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color
@@ -4940,6 +4953,63 @@ Children:
               DataType: String
               ModellingRule: Optional
               Value: "Default"
+          - Name: Average_Frequency1
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS_Solution_Latest/Model/_33KVAlarmInstance/AvgConsumptionIncomer1new"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 130.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 29.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 800.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 395.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 40.0
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Cooper Black"
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
         - Name: Header
           Type: Rectangle
           Children:
@@ -4994,7 +5064,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 10.0
+              Value: 0.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -5027,7 +5097,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 110.0
+              Value: 239.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -5180,12 +5250,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 720.0
+              Value: 770.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 20.0
+              Value: 15.0
             - Name: BorderColor
               Type: BaseDataVariableType
               DataType: Color
@@ -7363,6 +7433,26 @@ Children:
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../Enabled"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 12.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -6.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: TileStringFormatter
           Type: FeatureTileObject
           Children:
@@ -10881,7 +10971,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 0.0
+            Value: -4.0
           - Name: RightMargin
             Type: BaseVariableType
             DataType: Size
@@ -10891,7 +10981,458 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: -6.0
+            Value: -5.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+        - Name: Alarm Report
+          Type: FeatureTileObject
+          Children:
+          - Name: SVGTileBackground
+            Type: Image
+            Children:
+            - Name: Path
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=30;%PROJECTDIR%/imgs/white_tile_2.svg"
+          - Name: VLayoutContent
+            Type: ColumnLayout
+            Children:
+            - Name: 'svg-tile-icon'
+              Type: Image
+              Children:
+              - Name: Path
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: ""
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../Tile_Icon"
+            - Name: 'vlayout-labels'
+              Type: ColumnLayout
+              Children:
+              - Name: 'label-title'
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../Tile_Title"
+              - Name: 'label-subtitle'
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../Tile_Subtitle"
+          - Name: Tile_Favorite
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: false
+          - Name: ButtonScreenOpen
+            Type: Button
+            Children:
+            - Name: MouseClickEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer1
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{PanelLoader}@NodeId"
+                  - Name: Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "ChangePanel"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: NewPanel
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Tile_Open_Panel"
+                    - Name: AliasNode
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      ValueRank: ScalarOrOneDimension
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: EventArguments
+                Type: MouseClickEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
+          - Name: ButtonFavorite
+            Type: Button
+            Children:
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: ""
+              Children:
+              - Name: KeyValueConverter1
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../Tile_Favorite"
+                - Name: Pairs
+                  Type: BaseObjectType
+                  Children:
+                  - Name: Pair
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Value: false
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: ResourceUri
+                      Value: "ns=30;%PROJECTDIR%/imgs/icons/Favorites-md.svg"
+                  - Name: Pair1
+                    Type: ValueMapPair
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Value: true
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: ResourceUri
+                      Value: "ns=30;%PROJECTDIR%/imgs/icons/Favorite-sm.svg"
+            - Name: MouseClickEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer1
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Toggle"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Tile_Favorite@NodeId"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../EditFavoriteTilesLogic@NodeId"
+                  - Name: Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "ToggleFavorite"
+              - Name: EventArguments
+                Type: MouseClickEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
+          - Name: Tile_Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Alarm Report"}
+          - Name: Tile_Subtitle
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Alarms Report"}
+          - Name: Tile_Icon
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=30;%PROJECTDIR%/report_logo.jpg"
+          - Name: Tile_Open_Panel
+            Type: BaseDataVariableType
+            DataType: NodeId
+            Value: "/Objects/Tata_EMS_Solution_Latest/UI/Screens/Reports/Alarm_Report"
+          - Name: ButtonInfo
+            Type: Button
+            Children:
+            - Name: MouseClickEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer1
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/UICommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "OpenDialog"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: Dialog
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: "/Objects/Tata_EMS_Solution_Latest/UI/Templates/Common/FeatureInformation"
+                    - Name: AliasNode
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      ValueRank: ScalarOrOneDimension
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../..@NodeId"
+                    - Name: ParentItem
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../..@NodeId"
+                  - Name: OutputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: DialogNodeId
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: EventArguments
+                Type: MouseClickEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
+          - Name: EditFavoriteTilesLogic
+            Type: NetLogic
+            Children:
+            - Class: Reference
+              Target: g=404541099e0cfae1fe50a8128cdedf9e
+              Direction: Forward
+          - Name: Tile_Description
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Alarm Report"}
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: ComingSoonText
+            Type: Label
+            Children:
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../Enabled"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -4.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -5.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size

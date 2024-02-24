@@ -282,6 +282,62 @@ Children:
   - Name: EventFieldsToLog
     Type: BaseObjectType
     Children:
+    - Name: Time
+      Type: EventFieldToLog
+      DataType: UtcTime
+      Value: "1601-01-01T00:00:00.0000000"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/Time"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: SourceName
+      Type: EventFieldToLog
+      DataType: String
+      Value: ""
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/SourceName"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Message
+      Type: EventFieldToLog
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/Message"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: EnabledState_Id
+      Type: EventFieldToLog
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/EnabledState_Id"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
     - Name: ActiveState_Id
       Type: EventFieldToLog
       DataType: Boolean
@@ -333,62 +389,6 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ConditionName"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: EnabledState_Id
-      Type: EventFieldToLog
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/EnabledState_Id"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: SourceName
-      Type: EventFieldToLog
-      DataType: String
-      Value: ""
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/SourceName"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Time
-      Type: EventFieldToLog
-      DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/Time"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Message
-      Type: EventFieldToLog
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/Message"
         Children:
         - Name: Mode
           Type: BaseVariableType
