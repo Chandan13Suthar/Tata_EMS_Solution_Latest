@@ -8,6 +8,7 @@ Children:
 - File: Reports/Reports.yaml
 - File: MarginsForRetentivity/MarginsForRetentivity.yaml
 - File: Comparision_Dashboard/Comparision_Dashboard.yaml
+- File: Histo_Dashboard/Histo_Dashboard.yaml
 - File: DateTime/DateTime.yaml
 - Class: DataType
   Name: DateAndTimeFormatEnum
@@ -443,14 +444,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
-- Name: RuntimeNetLogic
-  Id: g=b7448545c357bab5eb48a5477530fa05
-  Supertype: NetLogic
-  ReferenceType: HasComponent
-- Name: RuntimeNetLogic1
-  Id: g=7084dd53ce32173f87bc54f200e9b96a
-  Supertype: NetLogic
-  ReferenceType: HasComponent
 - Name: ComparisionInstance
   Type: Comparision
   Children:
@@ -993,4 +986,549 @@ Children:
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
-- File: Histo_Dashboard/Histo_Dashboard.yaml
+- Name: HistoDashboardInstance
+  Type: HistoDashboard
+  Children:
+  - Name: Datefrom
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Histo Dashboard/Datefrom"
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/JaceSelected"
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Meterselected"
+  - Name: Maxconsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Minconsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgpf
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgfrequency
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Consumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Dateto
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Histo Dashboard/Dateto"
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: RuntimeNetLogic1
+    Type: NetLogic
+  - Name: Button1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: HistoDashboard
+  Id: g=c92c97590d04d0688370490fb5310e7b
+  Supertype: BaseObjectType
+  Children:
+  - Name: Datefrom
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Histo Dashboard/Datefrom"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/JaceSelected"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Histo Dashboard/Meterselected"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Maxconsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Minconsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgpf
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgfrequency
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Consumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Dateto
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Histo Dashboard/Dateto"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: RuntimeNetLogic1
+    Type: NetLogic
+  - Name: Button1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: hourlydata
+  Type: BaseObjectType
+  Children:
+  - Name: Datetime
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: Consumption
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: Avgpf
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: Avgfrequency
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+- Name: ComparisionDashboardInstance
+  Type: ComparisionDashboard
+  Children:
+  - Name: Datefrom
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Datefrom"
+  - Name: Dateto
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Dateto"
+  - Name: Maxconsumption1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Maxconsumption2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Minconsumption1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Minconsumption2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgpf1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgpf2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgfrequency1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgfrequency2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Consumption1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Consumption2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Jace1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Jaceselected1"
+  - Name: Jace2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Jaceselected2"
+  - Name: Meter1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Meterselected1"
+  - Name: Meter2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Meterselected2"
+  - Name: RuntimeNetLogic3
+    Type: NetLogic
+  - Name: Button1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Button2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: ComparisionDashboard
+  Id: g=0da78a672ae27b69ae302ef010613bd3
+  Supertype: BaseObjectType
+  Children:
+  - Name: Datefrom
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Datefrom"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Dateto
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Dateto"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Maxconsumption1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Maxconsumption2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Minconsumption1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Minconsumption2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgpf1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgpf2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgfrequency1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgfrequency2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Consumption1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Consumption2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Jace1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Jaceselected1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Jace2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Jaceselected2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Meter1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Meterselected1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Meter2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Meterselected2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: RuntimeNetLogic3
+    Type: NetLogic
+  - Name: Button1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Button2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: ComparisionDashboard1
+  Type: ComparisionDashboard
+  Children:
+  - Name: Datefrom
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Datefrom"
+  - Name: Dateto
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Dateto"
+  - Name: Maxconsumption1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Maxconsumption2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Minconsumption1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Minconsumption2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgpf1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgpf2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgfrequency1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Avgfrequency2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Consumption1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Consumption2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Jace1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Jaceselected1"
+  - Name: Jace2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Jaceselected2"
+  - Name: Meter1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Meterselected1"
+  - Name: Meter2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Comparision_Dashboard/Meterselected2"
+  - Name: RuntimeNetLogic3
+    Type: NetLogic
+  - Name: Button1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Button2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- File: Importer/Importer.yaml
+- Name: ButtonGenerator
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- File: Testing_Histo/Testing_Histo.yaml

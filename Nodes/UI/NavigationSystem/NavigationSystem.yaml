@@ -4994,7 +4994,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 0.0
+              Value: 10.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -5109,24 +5109,10 @@ Children:
                 DataType: LocalizedText
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                 Children:
-                - Name: StringFormatter1
-                  Type: StringFormatter
-                  Children:
-                  - Name: Format
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    ReferenceType: HasParameter
-                    ModellingRule: Optional
-                    Value: {"LocaleId":"","Text":"{0:n1}"}
-                  - Name: ns=3;Source0
-                    Type: BaseDataVariableType
-                    DataType: BaseDataType
-                    ReferenceType: HasSource
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/HomePageTags/TodayConsumption"
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_EMS_Solution_Latest/Converters@Value"
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
