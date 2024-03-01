@@ -265,7 +265,7 @@ Children:
             - Name: Model
               Type: NodePointer
               DataType: NodeId
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Second_Report_Links/Jace selection"
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Forth Report/Jace selection"
               Children:
               - Name: ItemKind
                 Type: PropertyType
@@ -8083,7 +8083,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 11.0
+              Value: 7.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -9085,7 +9085,7 @@ Children:
             - Name: Model
               Type: NodePointer
               DataType: NodeId
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Second_Report_Links/Jace selection"
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Forth Report/Jace selection"
               Children:
               - Name: ItemKind
                 Type: PropertyType
@@ -16644,7 +16644,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 1.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -17087,7 +17087,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 23.0
+              Value: 22.0
           - Name: Refresh
             Type: Button
             Children:
@@ -18896,12 +18896,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 507.0
+                Value: 515.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 8.0
+                Value: 10.0
               - Name: VerticalAlignment
                 Type: BaseVariableType
                 DataType: VerticalAlignment
@@ -19248,7 +19248,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 7.0
+                Value: 9.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -19286,10 +19286,12 @@ Children:
                       - Name: VariableToModify
                         Type: BaseDataVariableType
                         DataType: VariablePointer
-                        Value: "/Objects/Tata_EMS_Solution_Latest/Reports/Daily consumption Report/Sections/DataloggerReport/Query"
+                        Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                        Value: "/Objects/Tata_EMS_Solution_Latest/Reports/Alarm Report/Sections/DataGridSection1/Query"
                       - Name: Value
                         Type: BaseDataVariableType
                         DataType: String
+                        Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
                         Value: ""
                         Children:
                         - Name: StringFormatter1
@@ -19300,7 +19302,7 @@ Children:
                             DataType: LocalizedText
                             ReferenceType: HasParameter
                             ModellingRule: Optional
-                            Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"AlarmsEventLogger\" WHERE Date BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                            Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"AlarmsEventLogger\" WHERE LocalTime BETWEEN {0} AND {1}"}
                           - Name: ns=3;Source0
                             Type: BaseDataVariableType
                             DataType: BaseDataType
@@ -19319,18 +19321,10 @@ Children:
                               Type: DynamicLink
                               DataType: NodePath
                               Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Forth Report/Dateto"
-                          - Name: ns=3;Source2
-                            Type: BaseDataVariableType
-                            DataType: BaseDataType
-                            ReferenceType: HasSource
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Forth Report/jaceselection"
                       - Name: ArrayIndex
                         Type: BaseDataVariableType
                         DataType: UInt32
+                        Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                         ValueRank: ScalarOrOneDimension
                         Value: 0
                   - Name: MethodContainer4
@@ -19556,7 +19550,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 20.0
+                Value: 18.0
               - Name: Enabled
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -19604,7 +19598,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 30.0
+                Value: 4.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -19642,10 +19636,17 @@ Children:
                       - Name: VariableToModify
                         Type: BaseDataVariableType
                         DataType: VariablePointer
-                        Value: "/Objects/Tata_EMS_Solution_Latest/Reports/Daily consumption Report/Sections/DataloggerReport/Query"
+                        Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                        Value: {"IdType":0,"Id":0,"Namespace":-1}
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS_Solution_Latest/Reports/Alarm Report/Sections/DataGridSection1/Query"
                       - Name: Value
                         Type: BaseDataVariableType
                         DataType: String
+                        Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
                         Value: ""
                         Children:
                         - Name: StringFormatter1
@@ -19656,7 +19657,7 @@ Children:
                             DataType: LocalizedText
                             ReferenceType: HasParameter
                             ModellingRule: Optional
-                            Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"AlarmsEventLogger\" WHERE {2:sql_literal} = 1 AND Date BETWEEN {0:sql_literal} AND {1:sql_literal}"}
+                            Value: {"LocaleId":"en-US","Text":"SELECT * FROM 'AlarmsEventLogger' WHERE LocalTime BETWEEN {0} AND {1}"}
                           - Name: ns=3;Source0
                             Type: BaseDataVariableType
                             DataType: BaseDataType
@@ -19675,18 +19676,10 @@ Children:
                               Type: DynamicLink
                               DataType: NodePath
                               Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Forth Report/Dateto"
-                          - Name: ns=3;Source2
-                            Type: BaseDataVariableType
-                            DataType: BaseDataType
-                            ReferenceType: HasSource
-                            Children:
-                            - Name: DynamicLink
-                              Type: DynamicLink
-                              DataType: NodePath
-                              Value: "/Objects/Tata_EMS_Solution_Latest/DataStores/EmbeddedDatabase/Tables/AlarmsEventLogger/Columns/ActiveState_Id@Value"
                       - Name: ArrayIndex
                         Type: BaseDataVariableType
                         DataType: UInt32
+                        Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                         ValueRank: ScalarOrOneDimension
                         Value: 0
                   - Name: MethodContainer4
@@ -19912,7 +19905,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 19.0
+                Value: 18.0
               - Name: Enabled
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -20384,6 +20377,60 @@ Children:
               Value: 0.0
             - Class: Reference
               Target: ns=5;i=478
+        - Name: Label1
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Forth Report/Datefrom"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 180.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Reports/Forth Report/Dateto"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 180.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 240.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 10.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size

@@ -72,44 +72,99 @@ Children:
       "Value": 0,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "SELECT * FROM Model WHERE Area='Zone1'"
+       "Text": "SELECT * FROM Model WHERE Area='33KV'"
       },
       "Description": {
-       "NamespaceIndex": 30,
-       "TextId": "Zone1"
+       "LocaleId": "en-US",
+       "Text": "33 KV SubStation"
       }
      },{
       "Name": "Value1",
       "Value": 1,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "SELECT * FROM Model WHERE Area='Zone2'"
+       "Text": "SELECT * FROM Model WHERE Area='Utility'"
       },
       "Description": {
-       "NamespaceIndex": 30,
-       "TextId": "Zone2"
+       "LocaleId": "en-US",
+       "Text": "Utility Area"
       }
      },{
       "Name": "Value2",
       "Value": 2,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "SELECT * FROM Model WHERE Area='Zone3'"
+       "Text": "SELECT * FROM Model WHERE Area='PUMPROOM'"
       },
       "Description": {
-       "NamespaceIndex": 30,
-       "TextId": "Zone3"
+       "LocaleId": "en-US",
+       "Text": "Pump Room"
       }
      },{
       "Name": "Value3",
       "Value": 3,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "SELECT * FROM Model WHERE Area='Zone1' OR Area='Zone2' OR Area='Zone3'"
+       "Text": "SELECT * FROM Model WHERE Area='PAINTSHOP'"
       },
       "Description": {
-       "NamespaceIndex": 30,
-       "TextId": "All"
+       "LocaleId": "en-US",
+       "Text": "Paint Shop"
+      }
+     },{
+      "Name": "Value4",
+      "Value": 4,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "SELECT * FROM Model WHERE Area='Zone1' OR Area='BODYSHOP'"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "Body Shop"
+      }
+     },{
+      "Name": "Value5",
+      "Value": 5,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "SELECT * FROM Model WHERE Area='TCFSTATION'"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "TCF Station"
+      }
+     },{
+      "Name": "Value6",
+      "Value": 6,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "SELECT * FROM Model WHERE Area='STAMPING'"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "Stamping"
+      }
+     },{
+      "Name": "Value7",
+      "Value": 7,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "SELECT * FROM Model WHERE Area='ADMIN'"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "Admin"
+      }
+     },{
+      "Name": "Value8",
+      "Value": 8,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "SELECT * FROM Model WHERE Area='33KV' OR Area = 'Utility' OR Area = 'PUMPROOM' OR Area = 'PAINTSHOP' OR Area = 'BODYSHOP' OR Area = 'TCFSTATION' OR Area = 'STAMPING' OR Area = 'ADMIN'"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "All"
       }
      }]
    }
@@ -120,112 +175,14 @@ Children:
     ModellingRule: None
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone1'"},"Description":{"NamespaceIndex":30,"TextId":"Zone1"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone2'"},"Description":{"NamespaceIndex":30,"TextId":"Zone2"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone3'"},"Description":{"NamespaceIndex":30,"TextId":"Zone3"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone1' OR Area='Zone2' OR Area='Zone3'"},"Description":{"NamespaceIndex":30,"TextId":"All"}}}]
-- Name: DigitalAlarm1
-  Type: OffNormalAlarmController
-  Children:
-  - Name: NormalStateValue
-    Type: BaseDataVariableType
-    DataType: Double
-    Value: 0.0
-  - Name: InputValue
-    Type: BaseDataVariableType
-    DataType: Double
-    Value: 0.0
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "../../../_33KVAlarmInstance/AlarmIncomer1"
-      Children:
-      - Name: Mode
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
-  - Name: LastEvent
-    Type: BaseDataVariableType
-    DataType: BaseDataType
-    ValueRank: OneDimension
-    ArrayDimensions: [0]
-  - Class: Reference
-    Target: ns=21;i=81
-    Direction: Forward
-  - Class: Reference
-    Target: ns=21;i=82
-    Direction: Forward
-  - Class: Reference
-    Target: ns=21;i=83
-    Direction: Forward
-  - Name: Message
-    Type: BaseDataVariableType
-    DataType: LocalizedText
-    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-    Children:
-    - Name: StringFormatter1
-      Type: StringFormatter
-      Children:
-      - Name: Format
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ReferenceType: HasParameter
-        Value: {"LocaleId":"en-US","Text":"Sudden Rate Of Consumption Change From {0} To {1}."}
-      - Name: ns=3;Source0
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        ReferenceType: HasSource
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../../../../_33KVAlarmInstance/AvgConsumptionIncomer1"
-          Children:
-          - Name: IsPull
-            Type: BaseVariableType
-            DataType: Boolean
-            Value: true
-      - Name: IsPull
-        Type: PropertyType
-        DataType: Boolean
-        ReferenceType: HasComponent
-        Value: true
-      - Name: ns=3;Source1
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        ReferenceType: HasSource
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../../../../_33KVAlarmInstance/AvgConsumptionIncomer1new"
-          Children:
-          - Name: IsPull
-            Type: BaseVariableType
-            DataType: Boolean
-            Value: true
-  - Name: AutoAcknowledge
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
-  - Name: AutoConfirm
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
-  - Name: Enabled
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
-  - Name: Active
-    Type: BaseDataVariableType
-    DataType: Boolean
-    AccessLevel: Read
-    Value: false
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='33KV'"},"Description":{"LocaleId":"en-US","Text":"33 KV SubStation"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Utility'"},"Description":{"LocaleId":"en-US","Text":"Utility Area"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='PUMPROOM'"},"Description":{"LocaleId":"en-US","Text":"Pump Room"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='PAINTSHOP'"},"Description":{"LocaleId":"en-US","Text":"Paint Shop"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='Zone1' OR Area='BODYSHOP'"},"Description":{"LocaleId":"en-US","Text":"Body Shop"}}},{"TypeId":{"Id":7594},"Body":{"Value":5,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='TCFSTATION'"},"Description":{"LocaleId":"en-US","Text":"TCF Station"}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='STAMPING'"},"Description":{"LocaleId":"en-US","Text":"Stamping"}}},{"TypeId":{"Id":7594},"Body":{"Value":7,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='ADMIN'"},"Description":{"LocaleId":"en-US","Text":"Admin"}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"en-US","Text":"SELECT * FROM Model WHERE Area='33KV' OR Area = 'Utility' OR Area = 'PUMPROOM' OR Area = 'PAINTSHOP' OR Area = 'BODYSHOP' OR Area = 'TCFSTATION' OR Area = 'STAMPING' OR Area = 'ADMIN'"},"Description":{"LocaleId":"en-US","Text":"All"}}}]
 - File: Area/Area.yaml
 - File: Runtime/Runtime.yaml
 - Name: ZoneSelection
   Id: g=32e424d2b6641b5d862f3fb743add650
   Type: BaseDataVariableType
   DataType: String
-  Value: "SELECT * FROM Model WHERE Area='Zone1' OR Area='Zone2' OR Area='Zone3'"
+  Value: "SELECT * FROM Model WHERE Area = '33KV' OR Area = 'Utility' OR Area = 'PUMPROOM' OR Area = 'PAINTSHOP' OR Area = 'BODYSHOP' OR Area = 'TCFSTATION' OR  Area = 'STAMPING' OR Area = 'ADMIN'"
 - Name: Variable1
   Type: BaseDataVariableType
   DataType: Int32

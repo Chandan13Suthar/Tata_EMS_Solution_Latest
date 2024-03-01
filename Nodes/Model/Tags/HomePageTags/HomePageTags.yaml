@@ -15,7 +15,7 @@ Children:
 - Name: Demand
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
+  Value: 2589.0
 - Name: TodayConsumption
   Type: BaseDataVariableType
   DataType: Float

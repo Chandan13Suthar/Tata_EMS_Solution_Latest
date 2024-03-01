@@ -2,7 +2,6 @@ Name: KWhConsumptionChart
 Type: FolderType
 Children:
 - Name: Variable1
-  Id: g=70dc70b45cb7f71b601a120a45967608
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0

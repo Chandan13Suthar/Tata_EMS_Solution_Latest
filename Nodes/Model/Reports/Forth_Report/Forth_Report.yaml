@@ -3,7 +3,7 @@ Type: FolderType
 Children:
 - Class: DataType
   Name: Jace selection
-  Id: g=3c743971b20d28b8547ee3f297278a18
+  Id: g=57306442dcd064165b96977ebf794c80
   Supertype: Enumeration
   Children:
   - Name: ns=0;EnumValues
@@ -24,7 +24,7 @@ Children:
 - Name: Dateto
   Type: BaseDataVariableType
   DataType: DateTime
-  Value: "2024-02-24T00:00:00.0000000"
+  Value: "2024-02-24T23:59:59.0000000"
 - Name: jaceselection
   Type: BaseDataVariableType
   DataType: LocalizedText
@@ -66,7 +66,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"33KV SEGR ROOM"}
+          Value: {"LocaleId":"en-US","Text":"33KV_SEGR_ROOM"}
       - Name: Pair2
         Type: ValueMapPair
         Children:
@@ -88,7 +88,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"PAINT SHOP"}
+          Value: {"LocaleId":"en-US","Text":"PAINT_SHOP"}
       - Name: Pair4
         Type: ValueMapPair
         Children:
@@ -99,7 +99,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"BODY SHOP"}
+          Value: {"LocaleId":"en-US","Text":"BODY_SHOP"}
       - Name: Pair5
         Type: ValueMapPair
         Children:
@@ -110,7 +110,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"STAMPING SHOP"}
+          Value: {"LocaleId":"en-US","Text":"STAMPING_SHOP"}
       - Name: Pair6
         Type: ValueMapPair
         Children:
@@ -121,7 +121,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"PUMP ROOM"}
+          Value: {"LocaleId":"en-US","Text":"PUMP_ROOM"}
       - Name: Pair7
         Type: ValueMapPair
         Children:
@@ -132,7 +132,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"TCF STATION"}
+          Value: {"LocaleId":"en-US","Text":"TCF_STATION"}
       - Name: Pair8
         Type: ValueMapPair
         Children:

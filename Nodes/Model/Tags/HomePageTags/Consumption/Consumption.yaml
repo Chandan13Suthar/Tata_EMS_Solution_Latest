@@ -8,11 +8,11 @@ Children:
 - Name: UtilityTotal
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
+  Value: 8956.0
 - Name: PumpRoomTotal
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
+  Value: 8795.0
 - Name: PaintShopTotal
   Type: BaseDataVariableType
   DataType: Float
@@ -24,11 +24,11 @@ Children:
 - Name: TCFTotal
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
+  Value: 2589.0
 - Name: StampingTotal
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
+  Value: 2589.0
 - Name: AdminTotal
   Type: BaseDataVariableType
   DataType: Float
