@@ -2881,7 +2881,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 52.0
+          Value: 50.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -4881,7 +4881,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: 200.0
+              Value: 300.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -4998,7 +4998,7 @@ Children:
             - Name: OrderBy
               Type: BaseDataVariableType
               DataType: NodePath
-              Value: "{Item}/Message"
+              Value: ""
             - Name: DataItemTemplate
               Type: DataGridLabelItemTemplate
               Children:
@@ -5257,216 +5257,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Size
                 Value: 15.0
-          - Name: Severity
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":30,"TextId":"Severity"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 80.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 2
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 1
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/Severity"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: CollegamentoDinamico
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/Severity"
-          - Name: LimitState_CurrentState
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":30,"TextId":"AlarmLimitState"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 100.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 2
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 1
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/LimitState_CurrentState"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"LocaleId":"en-US","Text":"{Item}/LimitState_CurrentState"}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/LimitState_CurrentState"
-          - Name: LowLowState_Id
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":30,"TextId":"Low-lowState"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 80.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 1
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 2
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/LowLowState_Id"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/LowLowState_Id"
-          - Name: LowState_Id
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":30,"TextId":"LowState"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 80.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 1
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 2
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/LowState_Id"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/LowState_Id"
-          - Name: HighState_Id
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":30,"TextId":"HighState"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 80.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 1
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 2
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/HighState_Id"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/HighState_Id"
-          - Name: HighHighState_Id
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":30,"TextId":"High-highState"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 80.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 1
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 2
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/HighHighState_Id"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/HighHighState_Id"
         - Name: SelectedItem
           Type: NodePointer
           DataType: NodeId

@@ -215,7 +215,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
                 var Avgfrequency1 = column1;
                 avgfrequency1 = Avgfrequency1;
             }
-            ////////////////////////////////For Jace2///////////////////////////
+            ////////////////////////////////For Jace 2 ///////////////////////////////////////////////
             var rowCount5 = resultSet5 != null ? resultSet5.GetLength(0) : 0;
             var columnCount5 = header5 != null ? header5.Length : 0;
             if (rowCount5 > 0 && columnCount5 > 0)

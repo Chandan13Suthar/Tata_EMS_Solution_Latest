@@ -130,7 +130,7 @@ Children:
   - Name: Table
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_Solution_Latest/DataStores/ODBCDatabase/Tables/DailyConsumptionReport"
+    Value: {"IdType":2,"Id":"936b970d09a3ce585f56c3307dcee4df","Namespace":30}
     Children:
     - Name: Kind
       Type: PropertyType

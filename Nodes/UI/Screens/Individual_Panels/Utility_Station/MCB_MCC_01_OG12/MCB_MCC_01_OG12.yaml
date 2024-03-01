@@ -1141,6 +1141,11 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Rphasecurrent"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -1176,6 +1181,11 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/bphasecurrent"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -1211,6 +1221,11 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Average Current"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -1246,6 +1261,11 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/y&[phasecurrent"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -1274,6 +1294,54 @@ Children:
                 Value: "#f8e71c"
         - Name: Label2
           Type: Label
+        - Name: Label5
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Rphasecurrent"
+        - Name: Label6
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/y&[phasecurrent"
+        - Name: Label8
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Average Current"
+        - Name: Label7
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/bphasecurrent"
       - Name: Image2
         Type: Image
         Children:
@@ -1859,6 +1927,16 @@ Children:
           Type: Label
         - Name: Label2
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Variable1"
         - Name: CircularGauge1
           Type: CircularGauge
           Children:
@@ -1866,6 +1944,11 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Variable1"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -1873,7 +1956,7 @@ Children:
           - Name: MaxValue
             Type: BaseDataVariableType
             DataType: Float
-            Value: 1.0
+            Value: 3000.0
           - Name: WarningZones
             Type: BaseObjectType
             Children:
@@ -1887,7 +1970,7 @@ Children:
               - Name: To
                 Type: BaseDataVariableType
                 DataType: Float
-                Value: 0.699999988079071
+                Value: 1000.0
               - Name: Color
                 Type: BaseDataVariableType
                 DataType: Color
@@ -1898,11 +1981,11 @@ Children:
               - Name: From
                 Type: BaseDataVariableType
                 DataType: Float
-                Value: 0.699999988079071
+                Value: 1000.0
               - Name: To
                 Type: BaseDataVariableType
                 DataType: Float
-                Value: 0.800000011920929
+                Value: 1500.0
               - Name: Color
                 Type: BaseDataVariableType
                 DataType: Color
@@ -1913,11 +1996,11 @@ Children:
               - Name: From
                 Type: BaseDataVariableType
                 DataType: Float
-                Value: 0.800000011920929
+                Value: 1500.0
               - Name: To
                 Type: BaseDataVariableType
                 DataType: Float
-                Value: 1.0
+                Value: 3000.0
               - Name: Color
                 Type: BaseDataVariableType
                 DataType: Color
@@ -1981,6 +2064,11 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Pf"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -2039,3 +2127,15 @@ Children:
                 Value: "#008000"
         - Name: Label1
           Type: Label
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Pf"
