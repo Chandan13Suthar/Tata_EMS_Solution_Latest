@@ -2828,17 +2828,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Rphasecurrent"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -2846,7 +2835,7 @@ Children:
           - Name: MaxValue
             Type: BaseDataVariableType
             DataType: Float
-            Value: 100.0
+            Value: 1000.0
           - Name: WarningZones
             Type: BaseObjectType
             Children:
@@ -2965,17 +2954,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/bphasecurrent"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -2983,7 +2961,7 @@ Children:
           - Name: MaxValue
             Type: BaseDataVariableType
             DataType: Float
-            Value: 100.0
+            Value: 1000.0
           - Name: WarningZones
             Type: BaseObjectType
             Children:
@@ -3112,17 +3090,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Average Current"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -3130,7 +3097,7 @@ Children:
           - Name: MaxValue
             Type: BaseDataVariableType
             DataType: Float
-            Value: 100.0
+            Value: 1000.0
           - Name: WarningZones
             Type: BaseObjectType
             Children:
@@ -3259,17 +3226,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/y&[phasecurrent"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -3277,7 +3233,7 @@ Children:
           - Name: MaxValue
             Type: BaseDataVariableType
             DataType: Float
-            Value: 100.0
+            Value: 1000.0
           - Name: WarningZones
             Type: BaseObjectType
             Children:
@@ -3395,12 +3351,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Rphasecurrent"
+            Value: {"LocaleId":"en-US","Text":"iiiiiiii"}
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -3442,12 +3393,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/y&[phasecurrent"
+            Value: {"LocaleId":"en-US","Text":"555555"}
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -3489,12 +3435,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Average Current"
+            Value: {"LocaleId":"en-US","Text":"55555"}
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -3536,12 +3477,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/bphasecurrent"
+            Value: {"LocaleId":"en-US","Text":"8988"}
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -4907,8 +4843,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"415.2 V"}
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -5051,7 +4986,6 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            ModellingRule: Optional
             Value: {"LocaleId":"en-US","Text":"240.09 V"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
@@ -5062,7 +4996,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 41.0
+            Value: 65.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -5180,7 +5114,6 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            ModellingRule: Optional
             Value: {"LocaleId":"en-US","Text":"239.2 V"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
@@ -5324,7 +5257,6 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            ModellingRule: Optional
             Value: {"LocaleId":"en-US","Text":"240.8 V"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
@@ -5468,7 +5400,6 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            ModellingRule: Optional
             Value: {"LocaleId":"en-US","Text":"241.2 V"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
@@ -5881,7 +5812,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 760.0
+        Value: 0.0
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -6156,12 +6087,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Variable1"
+            Value: {"LocaleId":"en-US","Text":"66666"}
           - Name: FontFamily
             Type: BaseDataVariableType
             DataType: Font
@@ -6249,17 +6175,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Variable1"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -6581,17 +6496,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Pf"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -6767,12 +6671,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Pf"
+            Value: {"LocaleId":"en-US","Text":"55555"}
           - Name: Width
             Type: BaseVariableType
             DataType: Size

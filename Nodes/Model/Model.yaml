@@ -2845,3 +2845,200 @@ Children:
     Value: true
   - Name: RuntimeNetLogic5
     Type: NetLogic
+- Name: ObjectInstance
+  Type: Object
+  Children:
+  - Name: Counter
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Incomer1Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33kv"
+  - Name: Incomer2Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "utility"
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Income1Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Income2Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+  - Name: RuntimeNetLogic6
+    Type: NetLogic
+  - Name: Incomer3Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Bodyshop"
+  - Name: Incomer4Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Paintshop"
+  - Name: Incomer5Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Pumproom"
+  - Name: Incomer3Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 30
+  - Name: Incomer4Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 40
+  - Name: Incomer5Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+- Name: Object
+  Id: g=990df0512f7fb04cb24d5c7c25834b9d
+  Supertype: BaseObjectType
+  Children:
+  - Name: Counter
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Incomer1Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33kv"
+  - Name: Incomer2Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "utility"
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Income1Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Income2Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+  - Name: RuntimeNetLogic6
+    Type: NetLogic
+  - Name: Incomer3Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Bodyshop"
+  - Name: Incomer4Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Paintshop"
+  - Name: Incomer5Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Pumproom"
+  - Name: Incomer3Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 30
+  - Name: Incomer4Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 40
+  - Name: Incomer5Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+- Name: Object1
+  Type: Object
+  Children:
+  - Name: Counter
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Incomer1Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "33kv"
+  - Name: Incomer2Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "utility"
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Income1Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Income2Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+  - Name: RuntimeNetLogic6
+    Type: NetLogic
+  - Name: Incomer3Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Bodyshop"
+  - Name: Incomer4Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Paintshop"
+  - Name: Incomer5Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Pumproom"
+  - Name: Incomer3Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 30
+  - Name: Incomer4Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 40
+  - Name: Incomer5Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+- Name: ChildrenCounter1
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Node
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Count
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- File: Datalogtag/Datalogtag.yaml

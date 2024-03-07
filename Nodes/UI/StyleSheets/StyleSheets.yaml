@@ -628,6 +628,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#000000"
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
     - Name: InputBoxStyle1
       Type: InputBoxStyle
   - Name: SwitchStyles

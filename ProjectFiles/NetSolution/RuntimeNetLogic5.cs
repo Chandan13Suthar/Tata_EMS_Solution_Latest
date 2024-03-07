@@ -82,7 +82,7 @@ public class RuntimeNetLogic5 : BaseNetLogic
         {
 
             string query1 = "SELECT  Date FROM ConsumptionDistribution GROUP BY Date, Jace, Meter";
-            string query2 = "SELECT  Jace FROM ConsumptionDistribution GROUP BY Date, Jace, Meter";
+            string query2 = "SELECT  Meter FROM ConsumptionDistribution GROUP BY Date, Jace, Meter";
             string query3 = "SELECT  Meter FROM ConsumptionDistribution GROUP BY Date, Jace, Meter";
             string query4 = "SELECT  SUM(Consumption) AS Consumption FROM ConsumptionDistribution GROUP BY Date, Jace, Meter";
 

@@ -23,15 +23,28 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 1.2
+  8:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  9:
+   Uri: 'urn:FTOptix:MicroControllerTagImporter'
+   Module: FTOptix.MicroControllerTagImporter
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 0
-  Objects: 0
+  TotalNodeCount: 5
+  Objects: 1
   ObjectTypes: 0
-  Variables: 0
+  Variables: 4
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
   References: 0
   ReferenceTypes: 0
-  Files: 0
- Nodes: []
+  Files: 1
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/MicroControllerDriver1/MicroControllerStation1/TagImporter.yaml

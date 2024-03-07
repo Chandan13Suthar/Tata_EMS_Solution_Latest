@@ -330,18 +330,18 @@ Children:
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
-        - Name: Jace
+        - Name: Meter
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Consumption
           Type: StoreColumn
-          DataType: Int32
-          Value: 0
-        - Name: Cost
-          Type: StoreColumn
           DataType: Float
           Value: 0.0
+        - Name: Jace
+          Type: StoreColumn
+          DataType: String
+          Value: ""
     - Name: ConsumptionDistribution
       Type: ODBCStoreTable
       Children:

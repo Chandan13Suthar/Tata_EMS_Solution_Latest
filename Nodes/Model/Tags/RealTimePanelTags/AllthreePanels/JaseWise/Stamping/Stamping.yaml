@@ -1,7 +1,7 @@
 Name: Stamping
 Type: FolderType
 Children:
-- Name: VLL_RY
+- Name: Active_Power_Total
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -13,7 +13,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) / 2"
+      Value: "{0} + {1}"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -22,7 +22,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/VLL_RY"
+        Value: "../../../../../All Panels/Stamping1/Active_Power_Total"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -31,8 +31,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/VLL_RY"
-- Name: VLL_YB
+        Value: "../../../../../All Panels/Stamping2/Active_Power_Total"
+- Name: Apparent_Power_Total
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -44,7 +44,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) / 2"
+      Value: "{0} + {1}"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -53,7 +53,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/VLL_YB"
+        Value: "../../../../../All Panels/Stamping1/Apparent_Power_Total"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -62,8 +62,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/VLL_YB"
-- Name: VLL_BR
+        Value: "../../../../../All Panels/Stamping2/Apparent_Power_Total"
+- Name: Reactive_Power_Total
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -75,7 +75,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) / 2"
+      Value: "{0} + {1}"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -84,7 +84,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/VLL_BR"
+        Value: "../../../../../All Panels/Stamping1/Reactive_Power_Total"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -93,8 +93,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/VLL_BR"
-- Name: VLL_Average
+        Value: "../../../../../All Panels/Stamping2/Reactive_Power_Total"
+- Name: Active_Energy_Total
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -106,7 +106,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} + {2} ) / 3"
+      Value: "{0} + {1}"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -115,7 +115,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../VLL_RY"
+        Value: "../../../../../All Panels/Stamping1/Active_Energy_Total"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -124,17 +124,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../VLL_YB"
-    - Name: ns=3;Source2
-      Type: BaseDataVariableType
-      DataType: BaseDataType
-      ReferenceType: HasSource
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../VLL_BR"
-- Name: VLN_R
+        Value: "../../../../../All Panels/Stamping2/Active_Energy_Total"
+- Name: Apparent_Energy_Total
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -146,7 +137,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) / 2"
+      Value: "{0} + {1}"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -155,7 +146,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/VLN_R"
+        Value: "../../../../../All Panels/Stamping1/Apparent_Energy_Total"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -164,8 +155,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/VLN_R"
-- Name: VLN_Y
+        Value: "../../../../../All Panels/Stamping2/Apparent_Energy_Total"
+- Name: Reactive_Energy_Total
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -177,7 +168,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) / 2"
+      Value: "{0} + {1}"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -186,7 +177,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/VLN_Y"
+        Value: "../../../../../All Panels/Stamping1/Reactive_Energy_Total"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -195,8 +186,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/VLN_Y"
-- Name: VLN_B
+        Value: "../../../../../All Panels/Stamping2/Reactive_Energy_Total"
+- Name: Avg_PF
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -208,7 +199,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) / 2"
+      Value: "({0} + {1}) /2"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -217,7 +208,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/VLN_B"
+        Value: "../../../../../All Panels/Stamping1/Avg_PF"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -226,8 +217,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/VLN_B"
-- Name: VLN_Average
+        Value: "../../../../../All Panels/Stamping2/Avg_PF"
+- Name: Phase_R_Current
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -239,7 +230,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} + {2} ) / 3"
+      Value: "{0} + {1}"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -248,7 +239,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../VLN_R"
+        Value: "../../../../../All Panels/Stamping1/Phase_R_Current"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -257,17 +248,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../VLN_Y"
-    - Name: ns=3;Source2
-      Type: BaseDataVariableType
-      DataType: BaseDataType
-      ReferenceType: HasSource
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../VLN_B"
-- Name: Current_R
+        Value: "../../../../../All Panels/Stamping2/Phase_R_Current"
+- Name: Phase_Y_Current
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -279,7 +261,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) "
+      Value: "{0} + {1}"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -288,7 +270,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/Current_R"
+        Value: "../../../../../All Panels/Stamping1/Phase_Y_Current"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -297,8 +279,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/Current_R"
-- Name: Current_Y
+        Value: "../../../../../All Panels/Stamping2/Phase_Y_Current"
+- Name: Phase_B_Current
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -310,7 +292,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) "
+      Value: "{0} + {1}"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -319,7 +301,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/Current_Y"
+        Value: "../../../../../All Panels/Stamping1/Phase_B_Current"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -328,8 +310,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/Current_Y"
-- Name: Current_B
+        Value: "../../../../../All Panels/Stamping2/Phase_B_Current"
+- Name: Avg_Current
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -341,7 +323,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) "
+      Value: "{0} + {1}"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -350,7 +332,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/Current_B"
+        Value: "../../../../../All Panels/Stamping1/Avg_Current"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -359,8 +341,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/Current_B"
-- Name: Current_Average
+        Value: "../../../../../All Panels/Stamping2/Avg_Current"
+- Name: Avg_Voltage_LL
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -372,7 +354,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} + {2} ) "
+      Value: "({0} + {1}) / 2"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -381,7 +363,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../Current_R"
+        Value: "../../../../../All Panels/Stamping1/Avg_Voltage_LL"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -390,17 +372,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../Current_Y"
-    - Name: ns=3;Source2
-      Type: BaseDataVariableType
-      DataType: BaseDataType
-      ReferenceType: HasSource
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../Current_B"
-- Name: PowerFactor
+        Value: "../../../../../All Panels/Stamping2/Avg_Voltage_LL"
+- Name: Avg_Voltage_LN
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -412,7 +385,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) / 2"
+      Value: "({0} + {1}) / 2"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -421,7 +394,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/PowerFactor"
+        Value: "../../../../../All Panels/Stamping1/Avg_Voltage_LN"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -430,7 +403,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/PowerFactor"
+        Value: "../../../../../All Panels/Stamping2/Avg_Voltage_LN"
 - Name: Frequency
   Type: BaseDataVariableType
   DataType: Float
@@ -443,7 +416,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) / 2"
+      Value: "({0} + {1}) / 2"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -452,7 +425,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/Frequency"
+        Value: "../../../../../All Panels/Stamping1/Frequency"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -461,8 +434,8 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/Frequency"
-- Name: Consumption
+        Value: "../../../../../All Panels/Stamping2/Frequency"
+- Name: Voltage_RY
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -474,7 +447,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "( {0} + {1} ) "
+      Value: "({0} + {1}) / 2"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -483,7 +456,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping2/Consumption"
+        Value: "../../../../../All Panels/Stamping1/Voltage_RY"
     - Name: ns=3;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
@@ -492,4 +465,159 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../All Panels/Stamping1/Consumption"
+        Value: "../../../../../All Panels/Stamping2/Voltage_RY"
+- Name: Voltage_YB
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0} + {1}) / 2"
+    - Name: ns=3;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../All Panels/Stamping1/Voltage_YB"
+    - Name: ns=3;Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../All Panels/Stamping2/Voltage_YB"
+- Name: Voltage_BR
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0} + {1}) / 2"
+    - Name: ns=3;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../All Panels/Stamping1/Voltage_BR"
+    - Name: ns=3;Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../All Panels/Stamping2/Voltage_BR"
+- Name: Voltage_RN
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0} + {1}) / 2"
+    - Name: ns=3;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../All Panels/Stamping1/Voltage_RN"
+    - Name: ns=3;Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../All Panels/Stamping2/Voltage_RN"
+- Name: Voltage_YN
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0} + {1}) / 2"
+    - Name: ns=3;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../All Panels/Stamping1/Voltage_YN"
+    - Name: ns=3;Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../All Panels/Stamping2/Voltage_YN"
+- Name: Voltage_BN
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "({0} + {1}) / 2"
+    - Name: ns=3;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../All Panels/Stamping1/Voltage_BN"
+    - Name: ns=3;Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../All Panels/Stamping2/Voltage_BN"

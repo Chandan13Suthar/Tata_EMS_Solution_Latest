@@ -9,10 +9,6 @@ Children:
   Type: BaseDataVariableType
   DataType: DateTime
   Value: "1601-01-01T00:00:00.0000000"
-- Name: Rphasecurrent
-  Type: BaseDataVariableType
-  DataType: Float
-  Value: 25.719999313354492
 - Name: 'y[phasecurrent'
   Type: BaseDataVariableType
   DataType: Float

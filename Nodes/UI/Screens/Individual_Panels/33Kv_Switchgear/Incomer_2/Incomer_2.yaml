@@ -1,8 +1,8 @@
 Name: Incomer_2
 Type: FolderType
 Children:
-- Name: Power_Panel201
-  Id: g=2fe88f08febda81c3b34b71a3049fbb1
+- Name: Power_Panel40
+  Id: g=9a7363b2b1d42dac08a8ec24c8d3ff9f
   Supertype: Power_Panel
   ReferenceType: HasComponent
   Children:
@@ -82,6 +82,44 @@ Children:
           Type: Label
         - Name: Label1
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":""}
+            Children:
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0} KW"}
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: StringFormatter1
+                  Type: StringFormatter
+                  Children:
+                  - Name: Format
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"","Text":"{0:n2}"}
+                  - Name: ns=3;Source0
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/RealTimePanelTags/AllthreePanels/All Panels/33kv2/Active_Power_Total"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -89,6 +127,44 @@ Children:
           Type: Label
         - Name: Label2
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":""}
+            Children:
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0} KVA"}
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: StringFormatter1
+                  Type: StringFormatter
+                  Children:
+                  - Name: Format
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"","Text":"{0:n2}"}
+                  - Name: ns=3;Source0
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/RealTimePanelTags/AllthreePanels/All Panels/33kv2/Apparent_Power_Total"
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -96,6 +172,44 @@ Children:
           Type: Label
         - Name: Label4
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":""}
+            Children:
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0} KVAr"}
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: StringFormatter1
+                  Type: StringFormatter
+                  Children:
+                  - Name: Format
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"","Text":"{0:n2}"}
+                  - Name: ns=3;Source0
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/RealTimePanelTags/AllthreePanels/All Panels/33kv2/Reactive_Power_Total"
       - Name: PolyLine1
         Type: PolyLine
       - Name: PolyLine2
@@ -546,8 +660,8 @@ Children:
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=30;%PROJECTDIR%/imgs/Untitled1.png"
-- Name: Current_Panel202
-  Id: g=592fac8f18d0c0b807e733ea639b33d0
+- Name: Current_Panel40
+  Id: g=3abbb70582c779f611e84f12069b61a2
   Supertype: Current_Panel
   ReferenceType: HasComponent
   Children:
@@ -1141,11 +1255,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Rphasecurrent"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -1153,7 +1262,7 @@ Children:
           - Name: MaxValue
             Type: BaseDataVariableType
             DataType: Float
-            Value: 100.0
+            Value: 1000.0
           - Name: WarningZones
             Type: BaseObjectType
             Children:
@@ -1181,11 +1290,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/bphasecurrent"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -1193,7 +1297,7 @@ Children:
           - Name: MaxValue
             Type: BaseDataVariableType
             DataType: Float
-            Value: 100.0
+            Value: 1000.0
           - Name: WarningZones
             Type: BaseObjectType
             Children:
@@ -1221,11 +1325,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Average Current"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -1233,7 +1332,7 @@ Children:
           - Name: MaxValue
             Type: BaseDataVariableType
             DataType: Float
-            Value: 100.0
+            Value: 1000.0
           - Name: WarningZones
             Type: BaseObjectType
             Children:
@@ -1261,11 +1360,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/y&[phasecurrent"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -1273,7 +1367,7 @@ Children:
           - Name: MaxValue
             Type: BaseDataVariableType
             DataType: Float
-            Value: 100.0
+            Value: 1000.0
           - Name: WarningZones
             Type: BaseObjectType
             Children:
@@ -1300,48 +1394,28 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Rphasecurrent"
+            Value: {"LocaleId":"en-US","Text":"iiiiiiii"}
         - Name: Label6
           Type: Label
           Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/y&[phasecurrent"
+            Value: {"LocaleId":"en-US","Text":"555555"}
         - Name: Label8
           Type: Label
           Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Average Current"
+            Value: {"LocaleId":"en-US","Text":"55555"}
         - Name: Label7
           Type: Label
           Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/bphasecurrent"
+            Value: {"LocaleId":"en-US","Text":"8988"}
       - Name: Image2
         Type: Image
         Children:
@@ -1351,8 +1425,14 @@ Children:
           Value: "ns=30;%PROJECTDIR%/imgs/Untitled1.png"
       - Name: Label1
         Type: Label
-- Name: Voltage_Panel204
-  Id: g=653abff3e8ba1603c7200246e054226c
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 275.0
+- Name: Voltage_Panel40
+  Id: g=8699007b81010a729b5167b206846754
   Supertype: Voltage_Panel
   ReferenceType: HasComponent
   Children:
@@ -1805,11 +1885,59 @@ Children:
           Type: Label
         - Name: Label2
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0} V"}
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/RealTimePanelTags/AllthreePanels/All Panels/33kv2/Voltage_RY"
       - Name: Rectangle1
         Type: Rectangle
         Children:
         - Name: Label2
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"415.2 V"}
+            Children:
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0} V"}
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/RealTimePanelTags/AllthreePanels/All Panels/33kv2/Voltage_YB"
         - Name: Label1
           Type: Label
       - Name: Rectangle2
@@ -1817,6 +1945,30 @@ Children:
         Children:
         - Name: Label2
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"415.6 V"}
+            Children:
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0} V"}
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_EMS_Solution_Latest/Model/Tags/RealTimePanelTags/AllthreePanels/All Panels/33kv2/Voltage_BR"
         - Name: Label1
           Type: Label
       - Name: Rectangle3
@@ -1824,6 +1976,11 @@ Children:
         Children:
         - Name: Label2
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Label1
           Type: Label
       - Name: Rectangle4
@@ -1831,6 +1988,21 @@ Children:
         Children:
         - Name: Label2
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"240.09 V"}
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 199.0
+          - Name: TextHorizontalAlignment
+            Type: BaseVariableType
+            DataType: TextHorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
         - Name: Label1
           Type: Label
       - Name: Rectangle11
@@ -1838,6 +2010,11 @@ Children:
         Children:
         - Name: Label2
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"239.2 V"}
         - Name: Label1
           Type: Label
       - Name: Rectangle12
@@ -1845,6 +2022,11 @@ Children:
         Children:
         - Name: Label2
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"240.8 V"}
         - Name: Label1
           Type: Label
       - Name: Rectangle13
@@ -1852,6 +2034,11 @@ Children:
         Children:
         - Name: Label2
           Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"241.2 V"}
         - Name: Label1
           Type: Label
       - Name: Image1
@@ -1874,8 +2061,8 @@ Children:
           Type: Label
       - Name: Rectangle9
         Type: Rectangle
-- Name: Energy___PF203
-  Id: g=e54b8c8e460deba91ba5f0a9a3cfce7a
+- Name: Energy___PF40
+  Id: g=d084bde5cbd32bdda76825d9c95cb7dc
   Supertype: Energy___PF
   ReferenceType: HasComponent
   Children:
@@ -1931,12 +2118,7 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Variable1"
+            Value: {"LocaleId":"en-US","Text":"66666"}
         - Name: CircularGauge1
           Type: CircularGauge
           Children:
@@ -1944,11 +2126,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Variable1"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -2064,11 +2241,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Pf"
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
@@ -2133,9 +2305,14 @@ Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Pf"
+            Value: {"LocaleId":"en-US","Text":"55555"}
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 48.0

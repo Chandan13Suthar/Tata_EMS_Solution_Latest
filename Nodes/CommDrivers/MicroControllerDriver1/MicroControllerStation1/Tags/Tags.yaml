@@ -1,7 +1,7 @@
 Name: Tags
 Type: FolderType
 Children:
-- Name: Switchgear
+- Name: demo_tag
   Type: MicroControllerTag
   DataType: Float
   ValueRank: OneDimension
@@ -11,4 +11,4 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "Switchgear"
+    Value: "demo_tag"

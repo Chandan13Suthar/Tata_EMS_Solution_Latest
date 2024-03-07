@@ -7,6 +7,6 @@ Children:
 - File: Utility/Utility.yaml
 - File: Stamping/Stamping.yaml
 - File: TCF/TCF.yaml
-- File: BodyShop/BodyShop.yaml
-- File: EngineShop/EngineShop.yaml
-- File: PaintShop/PaintShop.yaml
+- File: Bodyshop/Bodyshop.yaml
+- File: Engineshop/Engineshop.yaml
+- File: Paintshop/Paintshop.yaml

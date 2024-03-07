@@ -409,7 +409,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 1010.0
+              Value: 532.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -5519,6 +5519,143 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 10.0
+        - Name: Label1
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Object1/Name"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 130.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 43.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 10.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 159.0
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#ffffff"
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 25.0
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Latest/Model/Object1/Counter"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 130.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 43.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 48.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 719.0
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#ffffff"
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 25.0
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"General Stastics"}
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 20.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 220.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 260.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 70.0
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 35.0
+        - Name: TextHorizontalAlignment
+          Type: BaseVariableType
+          DataType: TextHorizontalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: TextVerticalAlignment
+          Type: BaseVariableType
+          DataType: TextVerticalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: TextColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ffffff"
+        - Name: FontWeight
+          Type: BaseDataVariableType
+          DataType: FontWeightEnum
+          ModellingRule: Optional
+          Value: 700
       - Name: DataGrid1
         Type: DataGrid
         Children:
@@ -5538,7 +5675,7 @@ Children:
         - Name: Query
           Type: BaseDataVariableType
           DataType: String
-          Value: "SELECT * FROM \"DailyConsumption\""
+          Value: "SELECT * FROM \"Home Page\""
         - Name: Columns
           Type: BaseObjectType
           Children:
@@ -5577,76 +5714,6 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Item}/Timestamp"
-          - Name: LocalTimestamp
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"LocalTimestamp"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -1.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 0
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 0
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/LocalTimestamp"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/LocalTimestamp"
-          - Name: Date
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Date"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -1.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 0
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 0
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/Date"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/Date"
           - Name: Jace
             Type: DataGridColumn
             Children:
@@ -5773,12 +5840,12 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 384.0
+          Value: 821.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 209.0
+          Value: 219.0
         - Name: Item
           Type: Alias
           DataType: NodeId
@@ -5792,27 +5859,17 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 20.0
+          Value: 25.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 770.0
-        - Name: RowBackgroundColor
+          Value: 800.0
+        - Name: AutoRefreshTime
           Type: BaseDataVariableType
-          DataType: Color
+          DataType: Duration
           ModellingRule: Optional
-          Value: "#000000"
-        - Name: AllowDeselection
-          Type: BaseDataVariableType
-          DataType: Boolean
-          ModellingRule: Optional
-          Value: true
-        - Name: InputBoxStyle
-          Type: BaseDataVariableType
-          DataType: String
-          ModellingRule: Optional
-          Value: "Default"
+          Value: "0:00:00:1.0000000"
         - Name: SortColumn
           Type: BaseDataVariableType
           DataType: NodeId
@@ -5827,227 +5884,6 @@ Children:
           DataType: SortOrderEnum
           ModellingRule: Optional
           Value: 1
-      - Name: Label1
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"General Stastics"}
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 20.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 220.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 260.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 70.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 35.0
-        - Name: TextHorizontalAlignment
-          Type: BaseVariableType
-          DataType: TextHorizontalAlignment
-          ModellingRule: Optional
-          Value: 1
-        - Name: TextVerticalAlignment
-          Type: BaseVariableType
-          DataType: TextVerticalAlignment
-          ModellingRule: Optional
-          Value: 1
-        - Name: TextColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#ffffff"
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 700
-      - Name: Label2
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/Tata_EMS_Solution_Latest/Model/Demo/Consumption"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 120.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 70.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 60.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 150.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: TextColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#ffffff"
-      - Name: Label3
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/Tata_EMS_Solution_Latest/Model/HourlyDataAggregationInstance/Jace"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 120.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 70.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 430.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 139.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: TextColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#ffffff"
-      - Name: Label4
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/Tata_EMS_Solution_Latest/Model/HourlyDataAggregationInstance/Meter"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 120.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 70.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 690.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 140.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: TextColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#ffffff"
-      - Name: Label5
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/Tata_EMS_Solution_Latest/Model/HourlyDataAggregationInstance/Consumption"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 120.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 70.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1070.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 130.0
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: TextColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#ffffff"
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
@@ -6376,7 +6212,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 8.0
+            Value: 0.0
           - Name: ButtonInfo
             Type: Button
             Children:
@@ -6483,7 +6319,7 @@ Children:
           - Name: Tile_Description
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"StylingDescription"}
+            Value: {"LocaleId":"en-US","Text":"This will show the Breaker Capacity utilisation for Main Panel(33kv)."}
           - Name: Enabled
             Type: BaseDataVariableType
             DataType: Boolean
@@ -6508,6 +6344,21 @@ Children:
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "../../../../Enabled"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -8.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -6.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: TilePowerFactor
           Type: FeatureTileObject
           Children:
@@ -6914,7 +6765,7 @@ Children:
           - Name: Tile_Description
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"RelativePosDescription"}
+            Value: {"LocaleId":"en-US","Text":"This will show the Power Factor utilisation for Main Panel(33kv)."}
           - Name: Enabled
             Type: BaseDataVariableType
             DataType: Boolean
@@ -7345,7 +7196,7 @@ Children:
           - Name: Tile_Description
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":""}
+            Value: {"LocaleId":"en-US","Text":"This will show the Energy Consumption utilisation for Main Panel(33kv)."}
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -7799,7 +7650,7 @@ Children:
           - Name: Tile_Description
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"ExpressionEvaluatorDescription"}
+            Value: {"LocaleId":"en-US","Text":"From This Dashboard we can Compare two Panels."}
           - Name: Enabled
             Type: BaseDataVariableType
             DataType: Boolean
@@ -8250,7 +8101,7 @@ Children:
           - Name: Tile_Description
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"StringFormatterDescription"}
+            Value: {"LocaleId":"en-US","Text":"From this Dashboard we can Check historical Data of a Panel."}
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -8686,7 +8537,7 @@ Children:
           - Name: Tile_Description
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":30,"TextId":"KeyValueDescription"}
+            Value: {"LocaleId":"en-US","Text":"This Dashboard show the Consumption Distribution."}
           - Name: Enabled
             Type: BaseDataVariableType
             DataType: Boolean

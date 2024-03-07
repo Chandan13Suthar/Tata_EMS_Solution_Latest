@@ -849,8 +849,7 @@ Children:
     Children:
     - Name: Jace
       Type: VariableToLog
-      DataType: String
-      Value: ""
+      DataType: BaseDataType
       Children:
       - Name: LastValue
         Type: PropertyType
@@ -866,10 +865,47 @@ Children:
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Datalogtag/Jace"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Meter
+      Type: VariableToLog
+      DataType: BaseDataType
+      Value: {"Type":12,"Body":"../../../../Model/Datalogtag/Consumption"}
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Datalogtag/Meter"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
     - Name: Consumption
       Type: VariableToLog
-      DataType: Int32
-      Value: 0
+      DataType: BaseDataType
+      Value: {"Type":6,"Body":0}
       Children:
       - Name: LastValue
         Type: PropertyType
@@ -885,25 +921,15 @@ Children:
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
-    - Name: Cost
-      Type: VariableToLog
-      DataType: Float
-      Value: 0.0
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Datalogtag/Consumption"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
   - Class: Reference
     Target: ns=7;i=21
     Direction: Forward
@@ -911,6 +937,10 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: false
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:1.0000000"
 - Name: ConsumptionDistribution
   Type: DataLogger
   Children:
@@ -1147,7 +1177,7 @@ Children:
   - Name: SamplingMode
     Type: PropertyType
     DataType: SamplingModeEnum
-    Value: 1
+    Value: 2
   - Name: Store
     Type: NodePointer
     DataType: NodeId
