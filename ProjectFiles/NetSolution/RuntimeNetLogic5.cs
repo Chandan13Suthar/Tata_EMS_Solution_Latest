@@ -52,47 +52,23 @@ public class RuntimeNetLogic5 : BaseNetLogic
     }
 
     public void IncrementDecrementTask()
-    {
+     {
+        int meter = meterVariable.Value;
 
-        string jace = jaceVariable.Value;
-        string meter = meterVariable.Value;
-        float consumption = consumptionVariable.Value;
         bool button = buttonVariable.Value;
-        DateTime date = dateVariable.Value;
-
         var project = FTOptix.HMIProject.Project.Current;
-
-        var myStore1 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");// Date 
-        var myStore2 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Meter
-        var myStore3 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Jace
-        var myStore4 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Consumption
-
+        var myStore1 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
 
         object[,] resultSet1;
         string[] header1;
-        object[,] resultSet2;
-        string[] header2;
-        object[,] resultSet3;
-        string[] header3;
-        object[,] resultSet4;
-        string[] header4;
 
 
         if (button == true)
         {
-
-            string query1 = "SELECT  Date FROM ConsumptionDistribution GROUP BY Date, Jace, Meter";
-            string query2 = "SELECT  Meter FROM ConsumptionDistribution GROUP BY Date, Jace, Meter";
-            string query3 = "SELECT  Meter FROM ConsumptionDistribution GROUP BY Date, Jace, Meter";
-            string query4 = "SELECT  SUM(Consumption) AS Consumption FROM ConsumptionDistribution GROUP BY Date, Jace, Meter";
-
+            string currentHour = DateTime.Now.ToString("HH");
+            string query1 = $"SELECT Meter FROM Home Page WHERE LocalTime  BETWEEN '" + currentHour + " 00:00:00' AND '" + currentHour + " 23:59:59' AND Jace = '33KV'  AND Meter = 'INCOMER1'  ";
 
             myStore1.Query(query1, out header1, out resultSet1);
-            myStore2.Query(query2, out header2, out resultSet2);
-            myStore3.Query(query3, out header3, out resultSet3);
-            myStore4.Query(query4, out header4, out resultSet4);
-
-
 
 
 
@@ -100,48 +76,14 @@ public class RuntimeNetLogic5 : BaseNetLogic
             var columnCount1 = header1 != null ? header1.Length : 0;
             if (rowCount1 > 0 && columnCount1 > 0)
             {
-                var column1 = Convert.ToDateTime(resultSet1[0, 0]);
-                var Date = column1;
-                date = Date;
-            }
-
-
-
-            var rowCount2 = resultSet2 != null ? resultSet2.GetLength(0) : 0;
-            var columnCount2 = header2 != null ? header2.Length : 0;
-            if (rowCount2 > 0 && columnCount2 > 0)
-            {
-                var column1 = Convert.ToString(resultSet2[0, 0]);
-                var Jace = column1;
-                jace = Jace;
-            }
-
-
-            var rowCount3 = resultSet3 != null ? resultSet3.GetLength(0) : 0;
-            var columnCount3 = header3 != null ? header3.Length : 0;
-            if (rowCount3 > 0 && columnCount3 > 0)
-            {
-                var column1 = Convert.ToString(resultSet3[0, 0]);
+                var column1 = Convert.ToInt32(resultSet1[0, 0]);
                 var Meter = column1;
                 meter = Meter;
             }
 
-
-            var rowCount4 = resultSet4 != null ? resultSet4.GetLength(0) : 0;
-            var columnCount4 = header4 != null ? header4.Length : 0;
-            if (rowCount4 > 0 && columnCount4 > 0)
-            {
-                var column1 = Convert.ToInt32(resultSet4[0, 0]);
-                var Consumption = column1;
-                consumption = Consumption;
-            }
-
-
-            dateVariable.Value = date;
-            jaceVariable.Value = jace;
             meterVariable.Value = meter;
-            consumptionVariable.Value = consumption;
         }
+     }
 
 
 
@@ -149,7 +91,6 @@ public class RuntimeNetLogic5 : BaseNetLogic
 
 
 
-    }
 
     private IUAVariable dateVariable;
     private IUAVariable buttonVariable;

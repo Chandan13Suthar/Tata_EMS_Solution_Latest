@@ -936,7 +936,7 @@ Children:
   - Name: LogLocalTime
     Type: PropertyType
     DataType: Boolean
-    Value: false
+    Value: true
   - Name: SamplingPeriod
     Type: PropertyType
     DataType: Duration
@@ -1177,7 +1177,7 @@ Children:
   - Name: SamplingMode
     Type: PropertyType
     DataType: SamplingModeEnum
-    Value: 2
+    Value: 1
   - Name: Store
     Type: NodePointer
     DataType: NodeId
@@ -1190,62 +1190,6 @@ Children:
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
-    - Name: Date
-      Type: VariableToLog
-      DataType: DateTime
-      Value: "1601-01-01T00:00:00.0000000"
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Demo/Consumption"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Jace
-      Type: VariableToLog
-      DataType: String
-      Value: ""
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/HourlyDataAggregationInstance/Jace"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
     - Name: Meter
       Type: VariableToLog
       DataType: String
@@ -1274,34 +1218,6 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: Consumption
-      Type: VariableToLog
-      DataType: Float
-      Value: 0.0
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/HourlyDataAggregationInstance/Consumption"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
   - Class: Reference
     Target: ns=7;i=21
     Direction: Forward
@@ -1309,4 +1225,12 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:2.0000000"
+  - Name: PollingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:0.1000000"
 - File: Alarms/Alarms.yaml

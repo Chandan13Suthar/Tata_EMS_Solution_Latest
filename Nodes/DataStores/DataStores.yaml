@@ -342,6 +342,10 @@ Children:
           Type: StoreColumn
           DataType: String
           Value: ""
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
     - Name: ConsumptionDistribution
       Type: ODBCStoreTable
       Children:
@@ -430,22 +434,10 @@ Children:
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
-        - Name: Date
-          Type: StoreColumn
-          DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: Jace
-          Type: StoreColumn
-          DataType: String
-          Value: ""
         - Name: Meter
           Type: StoreColumn
           DataType: String
           Value: ""
-        - Name: Consumption
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
   - Name: Type
     Type: PropertyType
     DataType: DBMSType

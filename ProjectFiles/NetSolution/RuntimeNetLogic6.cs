@@ -118,7 +118,7 @@ public class RuntimeNetLogic6 : BaseNetLogic
             else 
             {
                 //Thread.Sleep(1 * 10 * 1000); // Pause for 5 minutes
-                counter = 0;
+                counter = 1;
 
             }
 
